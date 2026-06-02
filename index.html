@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reboot - IESB 2026 | Impactos da IA nas nossas vidas</title>
+    <meta name="description" content="Reboot IESB 2026 - Evento acadêmico sobre os impactos da Inteligência Artificial nas nossas vidas. 6 e 7 de outubro, IESB-SUL, Brasília.">
+    <meta property="og:title" content="Reboot - IESB 2026">
+    <meta property="og:description" content="Impactos da IA nas nossas vidas. 6 e 7 de outubro de 2026, IESB-SUL.">
+    <meta property="og:image" content="https://reboot.dataiesb.com/img/reboot-hero-bg.png">
+    <meta property="og:url" content="https://reboot.dataiesb.com">
+    <link rel="icon" href="img/reboot-logo.png" type="image/png">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --primary: #0f172a;
+            --accent: #06b6d4;
+            --accent2: #8b5cf6;
+            --text: #f8fafc;
+            --muted: #94a3b8;
+        }
+        body { font-family: 'Segoe UI', system-ui, sans-serif; background: var(--primary); color: var(--text); overflow-x: hidden; }
+        nav {
+            position: fixed; top: 0; width: 100%; background: rgba(15,23,42,0.95);
+            backdrop-filter: blur(10px); z-index: 100; padding: 0.8rem 2rem;
+            display: flex; justify-content: space-between; align-items: center;
+            border-bottom: 1px solid rgba(6,182,212,0.2);
+        }
+        nav .logo { display: flex; align-items: center; gap: 0.6rem; text-decoration: none; }
+        nav .logo img { height: 36px; width: 36px; border-radius: 8px; }
+        nav .logo .iesb-logo { height: 36px; width: auto; border-radius: 0; }
+        nav .logo span { font-weight: 700; font-size: 1.3rem; background: linear-gradient(135deg, var(--accent), var(--accent2)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        nav ul { list-style: none; display: flex; gap: 1.5rem; }
+        nav ul li a { color: var(--muted); text-decoration: none; font-size: 0.9rem; transition: color 0.3s; }
+        nav ul li a:hover { color: var(--accent); }
+        .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; background: none; border: none; padding: 0.5rem; }
+        .hamburger span { width: 24px; height: 2px; background: var(--accent); transition: 0.3s; }
+        #inicio {
+            min-height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center;
+            text-align: center; position: relative; padding: 6rem 2rem;
+        }
+        #inicio::before { content: ''; position: absolute; inset: 0; background: url('img/reboot-hero-bg.png') center/cover no-repeat; opacity: 0.3; z-index: 0; }
+        #inicio::after { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse at center, transparent 40%, var(--primary) 100%); z-index: 1; }
+        #inicio > * { position: relative; z-index: 2; }
+        #inicio .hero-logo { width: 120px; height: 120px; margin-bottom: 1.5rem; animation: pulse 3s ease-in-out infinite; border-radius: 24px; }
+        #inicio h1 { font-size: 4rem; margin-bottom: 0.5rem; background: linear-gradient(135deg, var(--accent), var(--accent2)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        #inicio .subtitle { font-size: 1.5rem; color: var(--muted); margin-bottom: 2rem; }
+        #inicio .date-badge { background: linear-gradient(135deg, var(--accent), var(--accent2)); color: #fff; padding: 0.8rem 2rem; border-radius: 50px; font-weight: 600; font-size: 1.1rem; }
+        #inicio .location { margin-top: 1rem; color: var(--muted); font-size: 1.1rem; }
+        .countdown { display: flex; gap: 1.5rem; margin-top: 2.5rem; }
+        .countdown-item { text-align: center; }
+        .countdown-item .number { font-size: 2.5rem; font-weight: 700; background: linear-gradient(135deg, var(--accent), var(--accent2)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .countdown-item .label { font-size: 0.75rem; color: var(--muted); text-transform: uppercase; letter-spacing: 1px; }
+        section { padding: 6rem 2rem; max-width: 1200px; margin: 0 auto; }
+        .section-title { font-size: 2.5rem; margin-bottom: 2rem; text-align: center; background: linear-gradient(135deg, var(--accent), var(--accent2)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        #sobre p { font-size: 1.2rem; line-height: 1.8; color: var(--muted); text-align: center; max-width: 800px; margin: 0 auto; }
+        .section-banner { width: 100%; max-height: 300px; object-fit: cover; border-radius: 16px; margin-bottom: 2rem; border: 1px solid rgba(6,182,212,0.2); }
+        .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-top: 2rem; }
+        .card { background: rgba(255,255,255,0.03); border: 1px solid rgba(6,182,212,0.2); border-radius: 16px; padding: 2rem; transition: transform 0.3s, border-color 0.3s; }
+        .card:hover { transform: translateY(-4px); border-color: var(--accent); }
+        .card h3 { color: var(--accent); margin-bottom: 0.5rem; }
+        .card p { color: var(--muted); line-height: 1.6; }
+        .card .time { font-size: 0.85rem; color: var(--accent2); margin-bottom: 0.5rem; font-weight: 600; }
+        #inscricao { text-align: center; }
+        #inscricao .btn { display: inline-block; margin-top: 2rem; padding: 1rem 3rem; background: linear-gradient(135deg, var(--accent), var(--accent2)); color: #fff; text-decoration: none; border-radius: 50px; font-size: 1.2rem; font-weight: 600; transition: transform 0.3s, box-shadow 0.3s; }
+        #inscricao .btn:hover { transform: scale(1.05); box-shadow: 0 10px 40px rgba(6,182,212,0.3); }
+        footer { text-align: center; padding: 2rem; color: var(--muted); border-top: 1px solid rgba(6,182,212,0.2); }
+        @keyframes pulse { 0%,100% { transform: scale(1); } 50% { transform: scale(1.05); } }
+        .reveal { opacity: 0; transform: translateY(30px); transition: opacity 0.6s ease, transform 0.6s ease; }
+        .reveal.visible { opacity: 1; transform: translateY(0); }
+        .partners-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin-top: 2rem; }
+        .partner-card { background: rgba(255,255,255,0.03); border: 1px solid rgba(6,182,212,0.2); border-radius: 16px; padding: 2rem; text-align: center; transition: transform 0.3s, border-color 0.3s; }
+        .partner-card:hover { transform: translateY(-4px); border-color: var(--accent); }
+        .partner-card img { max-height: 80px; max-width: 180px; object-fit: contain; margin: 0 auto 1rem; filter: brightness(0.9); }
+        .partner-card h3 { color: var(--accent); margin-bottom: 0.5rem; font-size: 1.1rem; }
+        .partner-card p { color: var(--muted); font-size: 0.9rem; line-height: 1.5; }
+        .coord-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin-top: 2rem; }
+        .coord-card { display: flex; align-items: center; gap: 1rem; padding: 1.2rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(6,182,212,0.2); border-radius: 12px; transition: transform 0.2s, border-color 0.3s; }
+        .coord-card:hover { transform: translateY(-2px); border-color: var(--accent); }
+        .coord-card img { width: 70px; height: 70px; border-radius: 50%; object-fit: cover; border: 2px solid var(--accent); }
+        .coord-card .coord-info h4 { color: var(--text); font-size: 1rem; margin-bottom: 0.3rem; }
+        .coord-card .coord-info .coord-role { color: var(--muted); font-size: 0.85rem; margin-bottom: 0.4rem; }
+        .coord-card .coord-links { display: flex; gap: 0.8rem; }
+        .coord-card .coord-links a { color: var(--accent); font-size: 0.8rem; text-decoration: none; transition: color 0.2s; }
+        .coord-card .coord-links a:hover { color: var(--accent2); }
+        .coord-subtitle { text-align: center; color: var(--muted); font-size: 1.1rem; margin-bottom: 1.5rem; }
+        @media (max-width: 768px) {
+            nav ul { position: fixed; top: 60px; left: 0; right: 0; background: rgba(15,23,42,0.98); flex-direction: column; align-items: center; padding: 2rem; gap: 1.5rem; transform: translateY(-100%); transition: transform 0.3s; }
+            nav ul.open { transform: translateY(0); }
+            .hamburger { display: flex; }
+            #inicio h1 { font-size: 2.5rem; }
+            #inicio .hero-logo { width: 80px; height: 80px; }
+            .countdown { gap: 1rem; }
+            .countdown-item .number { font-size: 1.8rem; }
+            section { padding: 4rem 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#inicio" class="logo">
+            <img src="img/reboot-logo.png" alt="Reboot Logo">
+            <span>REBOOT</span>
+            <img src="img/iesb-logo.png" alt="IESB" class="iesb-logo">
+        </a>
+        <button class="hamburger" aria-label="Menu" onclick="document.querySelector('nav ul').classList.toggle('open')">
+            <span></span><span></span><span></span>
+        </button>
+        <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#programacao">Programação</a></li>
+            <li><a href="#oficinas">Oficinas</a></li>
+            <li><a href="#parceiros">Parceiros</a></li>
+            <li><a href="#inscricao">Inscrição</a></li>
+            <li><a href="#coordenacao">Coordenação</a></li>
+        </ul>
+    </nav>
+
+    <section id="inicio">
+        <img src="img/reboot-logo.png" alt="Reboot" class="hero-logo">
+        <h1 id="hero-title"></h1>
+        <p class="subtitle" id="hero-subtitle"></p>
+        <div class="date-badge" id="hero-date"></div>
+        <p class="location" id="hero-location"></p>
+        <div class="countdown" id="countdown">
+            <div class="countdown-item"><div class="number" id="cd-days">--</div><div class="label">Dias</div></div>
+            <div class="countdown-item"><div class="number" id="cd-hours">--</div><div class="label">Horas</div></div>
+            <div class="countdown-item"><div class="number" id="cd-minutes">--</div><div class="label">Min</div></div>
+            <div class="countdown-item"><div class="number" id="cd-seconds">--</div><div class="label">Seg</div></div>
+        </div>
+    </section>
+
+    <section id="sobre" class="reveal">
+        <h2 class="section-title" id="about-title"></h2>
+        <p id="about-description"></p>
+    </section>
+
+    <section id="programacao" class="reveal">
+        <h2 class="section-title" id="schedule-title"></h2>
+        <img id="schedule-banner" alt="Programação" class="section-banner">
+        <div class="cards" id="schedule-cards"></div>
+    </section>
+
+    <section id="oficinas" class="reveal">
+        <h2 class="section-title" id="workshops-title"></h2>
+        <img id="workshops-banner" alt="Oficinas" class="section-banner">
+        <div class="cards" id="workshops-cards"></div>
+    </section>
+
+    <section id="parceiros" class="reveal">
+        <h2 class="section-title" id="partners-title"></h2>
+        <div class="partners-grid" id="partners-grid"></div>
+    </section>
+
+    <section id="inscricao" class="reveal">
+        <h2 class="section-title" id="registration-title"></h2>
+        <p style="color: var(--muted); font-size: 1.2rem;" id="registration-description"></p>
+        <a href="#" class="btn" id="registration-btn"></a>
+    </section>
+
+    <section id="coordenacao" class="reveal">
+        <h2 class="section-title" id="coordination-title"></h2>
+        <div id="coordination-content"></div>
+    </section>
+
+    <footer>
+        <p id="footer-text"></p>
+    </footer>
+
+    <script src="content-loader.js"></script>
+    <script>
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+        }, { threshold: 0.1 });
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+        document.querySelectorAll('nav ul li a').forEach(a => {
+            a.addEventListener('click', () => document.querySelector('nav ul').classList.remove('open'));
+        });
+    </script>
+</body>
+</html>

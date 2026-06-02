@@ -1,0 +1,83 @@
+{
+  "hero": {
+    "title": "Reboot - IESB 2026",
+    "subtitle": "Impactos da IA nas nossas vidas",
+    "date": "6 e 7 de Outubro de 2026",
+    "location": "📍 IESB-SUL — Brasília, DF",
+    "countdownTarget": "2026-10-06T09:00:00-03:00"
+  },
+  "about": {
+    "title": "Sobre o Evento",
+    "description": "O Reboot é um evento acadêmico que explora como a Inteligência Artificial está reiniciando nossas vidas profissionais e pessoais. Independente da sua área de atuação, a IA está transformando a forma como trabalhamos, criamos e nos conectamos. Venha fazer parte dessa revolução."
+  },
+  "schedule": {
+    "title": "Programação",
+    "banner": "img/reboot-programacao.png",
+    "days": [
+      {
+        "label": "Dia 1 — 06/10",
+        "sessions": [
+          { "time": "09:00", "title": "Credenciamento" },
+          { "time": "10:00", "title": "Keynote: O Futuro do Trabalho com IA" },
+          { "time": "14:00", "title": "Painel: IA nas Profissões" },
+          { "time": "16:00", "title": "Networking" }
+        ]
+      },
+      {
+        "label": "Dia 2 — 07/10",
+        "sessions": [
+          { "time": "09:00", "title": "Oficinas Práticas (manhã)" },
+          { "time": "14:00", "title": "Oficinas Práticas (tarde)" },
+          { "time": "16:30", "title": "Mesa Redonda: Ética e IA" },
+          { "time": "18:00", "title": "Encerramento" }
+        ]
+      }
+    ]
+  },
+  "workshops": {
+    "title": "Oficinas",
+    "banner": "img/reboot-oficinas.png",
+    "items": [
+      { "title": "IA Generativa na Prática", "description": "Aprenda a utilizar ferramentas de IA generativa no seu dia a dia profissional." },
+      { "title": "Automação Inteligente", "description": "Descubra como automatizar processos com agentes de IA." },
+      { "title": "Dados e Decisões", "description": "Como a IA está transformando a análise de dados e a tomada de decisão." }
+    ]
+  },
+  "partners": {
+    "title": "Parceiros",
+    "items": [
+      { "name": "IESB", "logo": "img/iesb-logo.png", "description": "Instituto de Educação Superior de Brasília — instituição idealizadora e principal apoiadora." },
+      { "name": "Amazon Web Services", "logo": "img/parceiros/aws.png", "description": "Infraestrutura de nuvem que sustenta o armazenamento, processamento e análise de dados." },
+      { "name": "SAS", "logo": "img/parceiros/sas.png", "description": "Líder global em soluções de analytics, fornecendo plataforma tecnológica de ponta." },
+      { "name": "DataI — Empresa Júnior", "logo": "img/parceiros/datai.png", "description": "Empresa Júnior de Ciência de Dados e Inteligência Artificial do IESB." }
+    ]
+  },
+  "registration": {
+    "title": "Inscrição",
+    "description": "Garanta sua vaga no evento que vai reiniciar sua visão sobre Inteligência Artificial.",
+    "buttonText": "Inscreva-se",
+    "buttonUrl": "#"
+  },
+  "coordination": {
+    "title": "Coordenação",
+    "sections": [
+      {
+        "label": "Coordenação Geral",
+        "members": [
+          { "name": "Prof. Sérgio da Costa Côrtes", "role": "Coordenador Geral", "photo": "img/coord/sergio.jpeg", "lattes": "http://lattes.cnpq.br/1206696860799261", "linkedin": "https://www.linkedin.com/in/s%C3%A9rgio-da-costa-c%C3%B4rtes-01032951/" },
+          { "name": "Profa. Simone de Araújo Góes Assis", "role": "Coordenadora Acadêmica", "photo": "img/coord/simone.png", "lattes": "http://lattes.cnpq.br/1014598931590283" },
+          { "name": "Profa. Natália Evangelista", "role": "Coordenadora de Pesquisa", "photo": "img/coord/natalia.png", "lattes": "https://www.escavador.com/sobre/natalia-evangelista" }
+        ]
+      },
+      {
+        "label": "Palestrantes",
+        "members": [
+          { "name": "Em breve", "role": "Palestrante confirmado", "photo": "img/coord/placeholder.png", "lattes": "#", "linkedin": "#" }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "text": "© 2026 Reboot - IESB. Todos os direitos reservados."
+  }
+}
