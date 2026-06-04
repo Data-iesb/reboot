@@ -64,10 +64,9 @@
       {
         "label": "Coordenação Geral",
         "members": [
-          { "name": "Prof. Luiz Claudio Costa", "role": "Coordenador Geral", "photo": "img/coord/sergio.jpeg", "lattes": "http://lattes.cnpq.br/1206696860799261", "linkedin": "https://www.linkedin.com/in/s%C3%A9rgio-da-costa-c%C3%B4rtes-01032951/" },
-          { "name": "Profa. Simone de Araújo Góes Assis", "role": "Coordenadora Acadêmica", "photo": "img/coord/simone.png", "lattes": "http://lattes.cnpq.br/1014598931590283" },
-          { "name": "Profa. Natália Evangelista", "role": "Coordenadora de Pesquisa", "photo": "img/coord/natalia.png", "lattes": "https://www.escavador.com/sobre/natalia-evangelista" }
-        ]
+          { "name": "Prof. Luiz Claudio Costa", "role": "Reitor do IESB", "photo": "img/coord/Luiz Claudio.png", "lattes": "http://lattes.cnpq.br/7149664393873107", "linkedin": "https://www.linkedin.com/in/luizcostawej113/" },
+          { "name": "Profa. Roberta Gontijos", "role": "Pró-Reitora de Graduação", "photo": "img/coord/Roberta Gontijo.png", "lattes": "http://lattes.cnpq.br/1014598931590283", "linkedin": "https://www.linkedin.com/in/roberta-gontijo-phd-4110213a/" },
+                ]
       },
       {
         "label": "Coordenação Acadêmica",
