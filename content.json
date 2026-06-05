@@ -52,7 +52,7 @@
     "items": [
       { "name": "IESB", "logo": "img/parceiros/iesb.png", "description": "Instituto de Educação Superior de Brasília — instituição idealizadora e principal apoiadora.", "url": "https://www.iesb.br" },
       { "name": "Amazon Web Services", "logo": "img/parceiros/Amazon_Web_Services-Logo.wine.svg", "description": "Infraestrutura de nuvem que sustenta o armazenamento, processamento e análise de dados.", "url": "https://aws.amazon.com" },
-      { "name": "SAS", "logo": "img/parceiros/sas.png", "description": "Líder global em soluções de analytics, fornecendo plataforma tecnológica de ponta.", "url": "https://www.sas.com" },
+      { "name": "SAS", "logo": "logo/logo_sas.webp", "description": "Líder global em soluções de analytics, fornecendo plataforma tecnológica de ponta.", "url": "https://www.sas.com" },
       { "name": "DataI — Empresa Júnior", "logo": "img/parceiros/datai.png", "description": "Empresa Júnior de Ciência de Dados e Inteligência Artificial do IESB.", "url": "https://dataiesb.com/parceiros.html" }
     ]
   },
