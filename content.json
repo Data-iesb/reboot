@@ -20,8 +20,8 @@
         "date": "06 de Outubro de 2026",
         "sessions": [
           { "time": "09:00", "title": "Credenciamento" },
-          { "time": "10:00", "title": "Keynote: O Futuro do Trabalho com IA", "speaker": { "name": "Em breve", "photo": "img/coord/placeholder.png", "lattes": "#", "linkedin": "#" } },
-          { "time": "14:00", "title": "Painel: IA nas Profissões", "speaker": { "name": "Em breve", "photo": "img/coord/placeholder.png", "lattes": "#", "linkedin": "#" } },
+          { "time": "10:00", "title": "Keynote: O Futuro do Trabalho com IA", "speaker": { "name": "Em breve", "photo": "img/coord/person.png", "lattes": "#", "linkedin": "#" } },
+          { "time": "14:00", "title": "Painel: IA nas Profissões", "speaker": { "name": "Em breve", "photo": "img/coord/person.png", "lattes": "#", "linkedin": "#" } },
           { "time": "16:00", "title": "Networking" }
         ]
       },
@@ -31,7 +31,7 @@
         "sessions": [
           { "time": "09:00", "title": "Oficinas Práticas (manhã)" },
           { "time": "14:00", "title": "Oficinas Práticas (tarde)" },
-          { "time": "16:30", "title": "Mesa Redonda: Ética e IA", "speaker": { "name": "Em breve", "photo": "img/coord/placeholder.png", "lattes": "#", "linkedin": "#" } },
+          { "time": "16:30", "title": "Mesa Redonda: Ética e IA", "speaker": { "name": "Em breve", "photo": "img/coord/person.png", "lattes": "#", "linkedin": "#" } },
           { "time": "18:00", "title": "Encerramento" }
         ]
       }
@@ -42,9 +42,9 @@
     "banner": "img/reboot-oficinas.png",
     "location": "Bloco K, Sala 02",
     "items": [
-      { "title": "IA Generativa na Prática", "description": "Aprenda a utilizar ferramentas de IA generativa no seu dia a dia profissional.", "date": "06/10 — 09:00 às 12:00", "speaker": { "name": "Em breve", "photo": "img/coord/placeholder.png", "lattes": "#", "linkedin": "#" } },
-      { "title": "Automação Inteligente", "description": "Descubra como automatizar processos com agentes de IA.", "date": "06/10 — 14:00 às 17:00", "speaker": { "name": "Em breve", "photo": "img/coord/placeholder.png", "lattes": "#", "linkedin": "#" } },
-      { "title": "Dados e Decisões", "description": "Como a IA está transformando a análise de dados e a tomada de decisão.", "date": "07/10 — 09:00 às 12:00", "speaker": { "name": "Em breve", "photo": "img/coord/placeholder.png", "lattes": "#", "linkedin": "#" } }
+      { "title": "IA Generativa na Prática", "description": "Aprenda a utilizar ferramentas de IA generativa no seu dia a dia profissional.", "date": "06/10 — 09:00 às 12:00", "speaker": { "name": "Em breve", "photo": "img/coord/person.png", "lattes": "#", "linkedin": "#" } },
+      { "title": "Automação Inteligente", "description": "Descubra como automatizar processos com agentes de IA.", "date": "06/10 — 14:00 às 17:00", "speaker": { "name": "Em breve", "photo": "img/coord/person.png", "lattes": "#", "linkedin": "#" } },
+      { "title": "Dados e Decisões", "description": "Como a IA está transformando a análise de dados e a tomada de decisão.", "date": "07/10 — 09:00 às 12:00", "speaker": { "name": "Em breve", "photo": "img/coord/person.png", "lattes": "#", "linkedin": "#" } }
     ]
   },
   "partners": {
@@ -83,7 +83,7 @@
       {
         "label": "Palestrantes",
         "members": [
-          { "name": "Em breve", "role": "Palestrante confirmado", "photo": "img/coord/placeholder.png", "lattes": "#", "linkedin": "#" }
+          { "name": "Em breve", "role": "Palestrante confirmado", "photo": "img/coord/person.png", "lattes": "#", "linkedin": "#" }
         ]
       }
     ]
