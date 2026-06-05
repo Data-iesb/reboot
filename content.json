@@ -38,7 +38,7 @@
     "title": "Oficinas",
     "banner": "img/reboot-oficinas.png",
     "items": [
-      { "title": "IA Generativa na Prática", "description": "Aprenda a utilizar ferramentas de IA generativa no seu dia a dia profissional." },
+      { "title": "IA Generativa na Prática", "description": "Aprenda a utilizar ferramentas de IA generativa no seu dia a dia profissional.","name": "Prof. Sérgio da Costa Côrtes", "role": "Coordenador Geral", "photo": "img/coord/sergio.jpeg", "lattes": "http://lattes.cnpq.br/1206696860799261", "linkedin": "https://www.linkedin.com/in/s%C3%A9rgio-da-costa-c%C3%B4rtes-01032951/" },
       { "title": "Automação Inteligente", "description": "Descubra como automatizar processos com agentes de IA." },
       { "title": "Dados e Decisões", "description": "Como a IA está transformando a análise de dados e a tomada de decisão." }
     ]
