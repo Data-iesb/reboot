@@ -50,7 +50,20 @@ class ContentLoader {
         container.innerHTML = s.days.map(day => `
             <div class="card">
                 <h3>${day.label}</h3>
-                ${day.sessions.map(sess => `<div class="time">${sess.time} – ${sess.title}</div>`).join('')}
+                <div class="time">📍 ${s.location} — ${day.date}</div>
+                ${day.sessions.map(sess => sess.speaker ? `
+                    <div class="coord-card" style="margin-top:0.8rem">
+                        <img src="${sess.speaker.photo}" alt="${sess.speaker.name}">
+                        <div class="coord-info">
+                            <h4>${sess.time} – ${sess.title}</h4>
+                            <div class="coord-role">${sess.speaker.name}</div>
+                            <div class="coord-links">
+                                ${sess.speaker.lattes ? `<a href="${sess.speaker.lattes}" target="_blank">Lattes</a>` : ''}
+                                ${sess.speaker.linkedin ? `<a href="${sess.speaker.linkedin}" target="_blank">LinkedIn</a>` : ''}
+                            </div>
+                        </div>
+                    </div>
+                ` : `<div class="time">${sess.time} – ${sess.title}</div>`).join('')}
             </div>
         `).join('');
     }
@@ -60,7 +73,22 @@ class ContentLoader {
         document.getElementById('workshops-banner').src = w.banner;
         const container = document.getElementById('workshops-cards');
         container.innerHTML = w.items.map(item => `
-            <div class="card"><h3>${item.title}</h3><p>${item.description}</p></div>
+            <div class="card">
+                <h3>${item.title}</h3>
+                <p>${item.description}</p>
+                <div class="time" style="margin-top:0.5rem">📍 ${w.location} — ${item.date}</div>
+                ${item.speaker ? `
+                <div class="coord-card" style="margin-top:0.8rem">
+                    <img src="${item.speaker.photo}" alt="${item.speaker.name}">
+                    <div class="coord-info">
+                        <h4>${item.speaker.name}</h4>
+                        <div class="coord-links">
+                            ${item.speaker.lattes ? `<a href="${item.speaker.lattes}" target="_blank">Lattes</a>` : ''}
+                            ${item.speaker.linkedin ? `<a href="${item.speaker.linkedin}" target="_blank">LinkedIn</a>` : ''}
+                        </div>
+                    </div>
+                </div>` : ''}
+            </div>
         `).join('');
     }
 
@@ -68,11 +96,11 @@ class ContentLoader {
         document.getElementById('partners-title').innerHTML = p.title;
         const grid = document.getElementById('partners-grid');
         grid.innerHTML = p.items.map(item => `
-            <div class="partner-card">
+            <a href="${item.url || '#'}" target="_blank" class="partner-card" style="text-decoration:none">
                 <img src="${item.logo}" alt="${item.name}">
                 <h3>${item.name}</h3>
                 <p>${item.description}</p>
-            </div>
+            </a>
         `).join('');
     }
 

@@ -13,22 +13,25 @@
   "schedule": {
     "title": "Programação",
     "banner": "img/reboot-programacao.png",
+    "location": "Bloco K, Sala 01",
     "days": [
       {
         "label": "Dia 1 — 06/10",
+        "date": "06 de Outubro de 2026",
         "sessions": [
           { "time": "09:00", "title": "Credenciamento" },
-          { "time": "10:00", "title": "Keynote: O Futuro do Trabalho com IA" },
-          { "time": "14:00", "title": "Painel: IA nas Profissões" },
+          { "time": "10:00", "title": "Keynote: O Futuro do Trabalho com IA", "speaker": { "name": "Em breve", "photo": "img/coord/placeholder.png", "lattes": "#", "linkedin": "#" } },
+          { "time": "14:00", "title": "Painel: IA nas Profissões", "speaker": { "name": "Em breve", "photo": "img/coord/placeholder.png", "lattes": "#", "linkedin": "#" } },
           { "time": "16:00", "title": "Networking" }
         ]
       },
       {
         "label": "Dia 2 — 07/10",
+        "date": "07 de Outubro de 2026",
         "sessions": [
           { "time": "09:00", "title": "Oficinas Práticas (manhã)" },
           { "time": "14:00", "title": "Oficinas Práticas (tarde)" },
-          { "time": "16:30", "title": "Mesa Redonda: Ética e IA" },
+          { "time": "16:30", "title": "Mesa Redonda: Ética e IA", "speaker": { "name": "Em breve", "photo": "img/coord/placeholder.png", "lattes": "#", "linkedin": "#" } },
           { "time": "18:00", "title": "Encerramento" }
         ]
       }
@@ -37,19 +40,20 @@
   "workshops": {
     "title": "Oficinas",
     "banner": "img/reboot-oficinas.png",
+    "location": "Bloco K, Sala 02",
     "items": [
-      { "title": "IA Generativa na Prática", "description": "Aprenda a utilizar ferramentas de IA generativa no seu dia a dia profissional."},
-      { "title": "Automação Inteligente", "description": "Descubra como automatizar processos com agentes de IA." },
-      { "title": "Dados e Decisões", "description": "Como a IA está transformando a análise de dados e a tomada de decisão." }
+      { "title": "IA Generativa na Prática", "description": "Aprenda a utilizar ferramentas de IA generativa no seu dia a dia profissional.", "date": "06/10 — 09:00 às 12:00", "speaker": { "name": "Em breve", "photo": "img/coord/placeholder.png", "lattes": "#", "linkedin": "#" } },
+      { "title": "Automação Inteligente", "description": "Descubra como automatizar processos com agentes de IA.", "date": "06/10 — 14:00 às 17:00", "speaker": { "name": "Em breve", "photo": "img/coord/placeholder.png", "lattes": "#", "linkedin": "#" } },
+      { "title": "Dados e Decisões", "description": "Como a IA está transformando a análise de dados e a tomada de decisão.", "date": "07/10 — 09:00 às 12:00", "speaker": { "name": "Em breve", "photo": "img/coord/placeholder.png", "lattes": "#", "linkedin": "#" } }
     ]
   },
   "partners": {
     "title": "Parceiros",
     "items": [
-      { "name": "IESB", "logo": "img/iesb-logo.png", "description": "Instituto de Educação Superior de Brasília — instituição idealizadora e principal apoiadora." },
-      { "name": "Amazon Web Services", "logo": "img/parceiros/aws.png", "description": "Infraestrutura de nuvem que sustenta o armazenamento, processamento e análise de dados." },
-      { "name": "SAS", "logo": "img/parceiros/sas.png", "description": "Líder global em soluções de analytics, fornecendo plataforma tecnológica de ponta." },
-      { "name": "DataI — Empresa Júnior", "logo": "img/parceiros/datai.png", "description": "Empresa Júnior de Ciência de Dados e Inteligência Artificial do IESB." }
+      { "name": "IESB", "logo": "img/iesb-logo.png", "description": "Instituto de Educação Superior de Brasília — instituição idealizadora e principal apoiadora.", "url": "https://www.iesb.br" },
+      { "name": "Amazon Web Services", "logo": "img/parceiros/aws.png", "description": "Infraestrutura de nuvem que sustenta o armazenamento, processamento e análise de dados.", "url": "https://aws.amazon.com" },
+      { "name": "SAS", "logo": "img/parceiros/sas.png", "description": "Líder global em soluções de analytics, fornecendo plataforma tecnológica de ponta.", "url": "https://www.sas.com" },
+      { "name": "DataI — Empresa Júnior", "logo": "img/parceiros/datai.png", "description": "Empresa Júnior de Ciência de Dados e Inteligência Artificial do IESB.", "url": "https://dataiesb.com/parceiros.html" }
     ]
   },
   "registration": {
