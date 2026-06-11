@@ -42,7 +42,7 @@
     "banner": "img/reboot-oficinas.png",
     "location": "Bloco K, Sala 02",
     "items": [
-      { "title": "Melhore seus estudos com a IA Generativa", "description": "Aprenda a utilizar ferramentas de IA generativa nos seus estudos e no seu dia a dia profissional.", "date": "06/10 — 10:00 às 12:00", "speaker": { "name":  "Prof. Sérgio da Costa Côrtes", "photo": "img/coord/sergio.png", "lattes": "#", "linkedin": "#" } },
+      { "title": "Melhore seus estudos com a IA Generativa", "description": "Aprenda a utilizar ferramentas de IA generativa nos seus estudos e no seu dia a dia profissional.", "date": "06/10 — 10:00 às 12:00", "speaker": { "name":  "Prof. Sérgio da Costa Côrtes", "photo": "img/coord/sergio.jpeg",  "lattes": "http://lattes.cnpq.br/1206696860799261", "linkedin": "https://www.linkedin.com/in/s%C3%A9rgio-da-costa-c%C3%B4rtes-01032951/" } },
       { "title": "Automação Inteligente", "description": "Descubra como automatizar processos com agentes de IA.", "date": "06/10 — 14:00 às 17:00", "speaker": { "name": "Em breve", "photo": "img/coord/person.png", "lattes": "#", "linkedin": "#" } },
       { "title": "Dados e Decisões", "description": "Como a IA está transformando a análise de dados e a tomada de decisão.", "date": "07/10 — 09:00 às 12:00", "speaker": { "name": "Em breve", "photo": "img/coord/person.png", "lattes": "#", "linkedin": "#" } }
     ]
