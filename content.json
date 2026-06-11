@@ -13,14 +13,14 @@
   "schedule": {
     "title": "Programação",
     "banner": "img/reboot-programacao.png",
-    "location": "Bloco K, Sala 01",
+    "location": "Bloco C, 3º andar, auditório",
     "days": [
       {
         "label": "Dia 1 — 06/10",
         "date": "06 de Outubro de 2026",
         "sessions": [
-          { "time": "09:00", "title": "Credenciamento" },
-          { "time": "10:00", "title": "Keynote: O Futuro do Trabalho com IA", "speaker": { "name": "Em breve", "photo": "img/coord/person.png", "lattes": "#", "linkedin": "#" } },
+          { "time": "8:00", "title": "Credenciamento" },
+          { "time": "8:30", "title": "Keynote: O Futuro do Trabalho com IA", "speaker": { "name": "Prof. Luiz Claudio Costa", "photo": "img/coord/Luiz Claudio.png", "lattes": "http://lattes.cnpq.br/7149664393873107", "linkedin": "https://www.linkedin.com/in/luizcostawej113/" } },
           { "time": "14:00", "title": "Painel: IA nas Profissões", "speaker": { "name": "Em breve", "photo": "img/coord/person.png", "lattes": "#", "linkedin": "#" } },
           { "time": "16:00", "title": "Networking" }
         ]
