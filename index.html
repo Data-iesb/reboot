@@ -69,6 +69,16 @@
         #inscricao { text-align: center; }
         #inscricao .btn { display: inline-block; margin-top: 2rem; padding: 1rem 3rem; background: linear-gradient(135deg, var(--accent), var(--accent2)); color: #fff; text-decoration: none; border-radius: 50px; font-size: 1.2rem; font-weight: 600; transition: transform 0.3s, box-shadow 0.3s; }
         #inscricao .btn:hover { transform: scale(1.05); box-shadow: 0 10px 40px rgba(6,182,212,0.3); }
+        #inscricao .btn-outline { background: transparent; border: 2px solid var(--accent); color: var(--accent); }
+        #inscricao .btn-outline:hover { background: rgba(6,182,212,0.1); box-shadow: 0 10px 40px rgba(6,182,212,0.2); }
+        #inscricao .registration-actions { display: flex; flex-wrap: wrap; gap: 1.2rem; justify-content: center; align-items: center; }
+        #registration-body { text-align: left; max-width: 820px; margin: 0 auto; color: var(--muted); }
+        #registration-body h3 { color: var(--accent); font-size: 1.15rem; margin: 1.8rem 0 0.6rem; }
+        #registration-body p { line-height: 1.7; margin-bottom: 0.8rem; }
+        #registration-body ul { margin: 0.4rem 0 1rem 1.4rem; line-height: 1.7; }
+        #registration-body li { margin-bottom: 0.3rem; }
+        #registration-body .edital-meta { display: flex; flex-wrap: wrap; gap: 0.8rem; justify-content: center; margin-bottom: 1.5rem; }
+        #registration-body .edital-meta span { background: rgba(6,182,212,0.1); border: 1px solid rgba(6,182,212,0.3); color: var(--text); padding: 0.5rem 1.1rem; border-radius: 50px; font-size: 0.9rem; }
         footer { text-align: center; padding: 2rem; color: var(--muted); border-top: 1px solid rgba(6,182,212,0.2); }
         @keyframes pulse { 0%,100% { transform: scale(1); } 50% { transform: scale(1.05); } }
         .reveal { opacity: 0; transform: translateY(30px); transition: opacity 0.6s ease, transform 0.6s ease; }
@@ -113,9 +123,8 @@
             <li><a href="#inicio">Início</a></li>
             <li><a href="#sobre">Sobre</a></li>
             <li><a href="#programacao">Programação</a></li>
-            <li><a href="#oficinas">Oficinas</a></li>
             <li><a href="#parceiros">Parceiros</a></li>
-            <li><a href="#inscricao">Inscrição</a></li>
+            <li><a href="#inscricao">Submissão de Trabalho</a></li>
             <li><a href="#coordenacao">Coordenação</a></li>
         </ul>
     </nav>
@@ -148,12 +157,6 @@
         <div class="cards" id="schedule-cards"></div>
     </section>
 
-    <section id="oficinas" class="reveal">
-        <h2 class="section-title" id="workshops-title"></h2>
-        <img id="workshops-banner" alt="Oficinas" class="section-banner">
-        <div class="cards" id="workshops-cards"></div>
-    </section>
-
     <section id="parceiros" class="reveal">
         <h2 class="section-title" id="partners-title"></h2>
         <div class="partners-grid" id="partners-grid"></div>
@@ -161,8 +164,12 @@
 
     <section id="inscricao" class="reveal">
         <h2 class="section-title" id="registration-title"></h2>
-        <p style="color: var(--muted); font-size: 1.2rem;" id="registration-description"></p>
-        <a href="#" class="btn" id="registration-btn"></a>
+        <p style="color: var(--muted); font-size: 1.2rem; text-align:center; max-width: 800px; margin: 0 auto 1.5rem;" id="registration-description"></p>
+        <div id="registration-body"></div>
+        <div class="registration-actions">
+            <a href="#" class="btn btn-outline" id="registration-edital-btn" target="_blank" rel="noopener"></a>
+            <a href="#" class="btn" id="registration-btn" target="_blank" rel="noopener"></a>
+        </div>
     </section>
 
     <section id="coordenacao" class="reveal">

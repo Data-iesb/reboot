@@ -9,7 +9,6 @@ class ContentLoader {
         this.renderHero(c.hero);
         this.renderAbout(c.about);
         this.renderSchedule(c.schedule);
-        this.renderWorkshops(c.workshops);
         this.renderPartners(c.partners);
         this.renderRegistration(c.registration);
         this.renderCoordination(c.coordination);
@@ -68,30 +67,6 @@ class ContentLoader {
         `).join('');
     }
 
-    renderWorkshops(w) {
-        document.getElementById('workshops-title').innerHTML = w.title;
-        document.getElementById('workshops-banner').src = w.banner;
-        const container = document.getElementById('workshops-cards');
-        container.innerHTML = w.items.map(item => `
-            <div class="card">
-                <h3>${item.title}</h3>
-                <p>${item.description}</p>
-                <div class="time" style="margin-top:0.5rem">📍 ${w.location} — ${item.date}</div>
-                ${item.speaker ? `
-                <div class="coord-card" style="margin-top:0.8rem">
-                    <img src="${item.speaker.photo}" alt="${item.speaker.name}">
-                    <div class="coord-info">
-                        <h4>${item.speaker.name}</h4>
-                        <div class="coord-links">
-                            ${item.speaker.lattes ? `<a href="${item.speaker.lattes}" target="_blank">Lattes</a>` : ''}
-                            ${item.speaker.linkedin ? `<a href="${item.speaker.linkedin}" target="_blank">LinkedIn</a>` : ''}
-                        </div>
-                    </div>
-                </div>` : ''}
-            </div>
-        `).join('');
-    }
-
     renderPartners(p) {
         document.getElementById('partners-title').innerHTML = p.title;
         const grid = document.getElementById('partners-grid');
@@ -107,6 +82,18 @@ class ContentLoader {
     renderRegistration(r) {
         document.getElementById('registration-title').innerHTML = r.title;
         document.getElementById('registration-description').innerHTML = r.description;
+        const body = document.getElementById('registration-body');
+        if (body) body.innerHTML = r.body || '';
+        const editalBtn = document.getElementById('registration-edital-btn');
+        if (editalBtn) {
+            if (r.editalUrl) {
+                editalBtn.innerHTML = r.editalText || 'Acessar o edital completo';
+                editalBtn.href = r.editalUrl;
+                editalBtn.style.display = '';
+            } else {
+                editalBtn.style.display = 'none';
+            }
+        }
         const btn = document.getElementById('registration-btn');
         btn.innerHTML = r.buttonText;
         btn.href = r.buttonUrl;

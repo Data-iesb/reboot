@@ -8,7 +8,7 @@
   },
   "about": {
     "title": "Sobre o Evento",
-     "description": "O <strong>Reboot</strong> é um evento acadêmico criado para refletir sobre uma das maiores transformações da história contemporânea: o impacto da Inteligência Artificial na vida profissional, acadêmica e pessoal. Mais do que uma nova tecnologia, a IA representa uma mudança profunda na forma como produzimos conhecimento, tomamos decisões, desenvolvemos soluções e nos relacionamos com o mundo ao nosso redor. </p>\n\n<p> Independentemente da área da ciência que você estuda ou da profissão que exerce — seja nas Ciências Humanas, Sociais, Saúde, Exatas, Engenharias, Educação, Comunicação, Gestão ou Tecnologia — a Inteligência Artificial já está redefinindo competências, criando novas oportunidades e transformando carreiras. Profissionais que compreendem essas mudanças e se preparam para elas estarão mais aptos a enfrentar os desafios de um mercado cada vez mais dinâmico, inovador e orientado por dados. </p>\n\n<p> O <strong>Reboot</strong> propõe justamente esse momento de reinicialização: uma oportunidade para repensar conhecimentos, desenvolver novas habilidades e ampliar perspectivas sobre o futuro do trabalho, da pesquisa e da inovação. Em um cenário de mudanças aceleradas, não basta apenas acompanhar as transformações; é fundamental compreendê-las, adaptar-se a elas e utilizá-las de forma estratégica, ética e criativa. </p>\n\n<p> Venha fazer parte dessa jornada de aprendizado e descoberta. Reflita sobre o futuro da sua profissão, compreenda o papel da Inteligência Artificial na sua área de atuação e prepare-se para os novos desafios e oportunidades que já estão moldando o mundo. O futuro não está chegando — ele já começou. E o momento de fazer o seu <strong>Reboot</strong> é agora."
+    "description": "O <strong>Reboot</strong> é um evento acadêmico criado para refletir sobre uma das maiores transformações da história contemporânea: o impacto da Inteligência Artificial na vida profissional, acadêmica e pessoal. Mais do que uma nova tecnologia, a IA representa uma mudança profunda na forma como produzimos conhecimento, tomamos decisões, desenvolvemos soluções e nos relacionamos com o mundo ao nosso redor. </p>\n\n<p> Independentemente da área da ciência que você estuda ou da profissão que exerce — seja nas Ciências Humanas, Sociais, Saúde, Exatas, Engenharias, Educação, Comunicação, Gestão ou Tecnologia — a Inteligência Artificial já está redefinindo competências, criando novas oportunidades e transformando carreiras. Profissionais que compreendem essas mudanças e se preparam para elas estarão mais aptos a enfrentar os desafios de um mercado cada vez mais dinâmico, inovador e orientado por dados. </p>\n\n<p> O <strong>Reboot</strong> propõe justamente esse momento de reinicialização: uma oportunidade para repensar conhecimentos, desenvolver novas habilidades e ampliar perspectivas sobre o futuro do trabalho, da pesquisa e da inovação. Em um cenário de mudanças aceleradas, não basta apenas acompanhar as transformações; é fundamental compreendê-las, adaptar-se a elas e utilizá-las de forma estratégica, ética e criativa. </p>\n\n<p> Venha fazer parte dessa jornada de aprendizado e descoberta. Reflita sobre o futuro da sua profissão, compreenda o papel da Inteligência Artificial na sua área de atuação e prepare-se para os novos desafios e oportunidades que já estão moldando o mundo. O futuro não está chegando — ele já começou. E o momento de fazer o seu <strong>Reboot</strong> é agora."
   },
   "schedule": {
     "title": "Programação",
@@ -19,48 +19,103 @@
         "label": "Dia 1 — 06/10",
         "date": "06 de Outubro de 2026",
         "sessions": [
-          { "time": "8:00", "title": "Credenciamento" },
-          { "time": "8:30", "title": "Keynote: O Futuro do Trabalho com IA", "speaker": { "name": "Prof. Luiz Claudio Costa", "photo": "img/coord/Luiz Claudio.png", "lattes": "http://lattes.cnpq.br/7149664393873107", "linkedin": "https://www.linkedin.com/in/luizcostawej113/" } },
-          { "time": "14:00", "title": "Painel: IA nas Profissões", "speaker": { "name": "Em breve", "photo": "img/coord/person.png", "lattes": "#", "linkedin": "#" } },
-          { "time": "16:00", "title": "Networking" }
+          {
+            "time": "8:00",
+            "title": "Credenciamento"
+          },
+          {
+            "time": "8:30",
+            "title": "Keynote: O Futuro do Trabalho com IA",
+            "speaker": {
+              "name": "Prof. Luiz Claudio Costa",
+              "photo": "img/coord/Luiz Claudio.png",
+              "lattes": "http://lattes.cnpq.br/7149664393873107",
+              "linkedin": "https://www.linkedin.com/in/luizcostawej113/"
+            }
+          },
+          {
+            "time": "14:00",
+            "title": "Painel: IA nas Profissões",
+            "speaker": {
+              "name": "Em breve",
+              "photo": "img/coord/person.png",
+              "lattes": "#",
+              "linkedin": "#"
+            }
+          },
+          {
+            "time": "16:00",
+            "title": "Networking"
+          }
         ]
       },
       {
         "label": "Dia 2 — 07/10",
         "date": "07 de Outubro de 2026",
         "sessions": [
-          { "time": "09:00", "title": "Oficinas Práticas (manhã)" },
-          { "time": "14:00", "title": "Oficinas Práticas (tarde)" },
-          { "time": "16:30", "title": "Mesa Redonda: Ética e IA", "speaker": { "name": "Em breve", "photo": "img/coord/person.png", "lattes": "#", "linkedin": "#" } },
-          { "time": "18:00", "title": "Encerramento" }
+          {
+            "time": "09:00",
+            "title": "Oficinas Práticas (manhã)"
+          },
+          {
+            "time": "14:00",
+            "title": "Oficinas Práticas (tarde)"
+          },
+          {
+            "time": "16:30",
+            "title": "Mesa Redonda: Ética e IA",
+            "speaker": {
+              "name": "Em breve",
+              "photo": "img/coord/person.png",
+              "lattes": "#",
+              "linkedin": "#"
+            }
+          },
+          {
+            "time": "18:00",
+            "title": "Encerramento"
+          }
         ]
       }
-    ]
-  },
-  "workshops": {
-    "title": "Oficinas",
-    "banner": "img/reboot-oficinas.png",
-    "location": "Bloco K, Sala 02",
-    "items": [
-      { "title": "Melhore seus estudos com a IA Generativa", "description": "Aprenda a utilizar ferramentas de IA generativa nos seus estudos e no seu dia a dia profissional.", "date": "06/10 — 10:00 às 12:00", "speaker": { "name":  "Prof. Sérgio da Costa Côrtes", "photo": "img/coord/Sergio Cortes - foto 2- 2018-03-22 - Copia-2.JPG",  "lattes": "http://lattes.cnpq.br/1206696860799261", "linkedin": "https://www.linkedin.com/in/s%C3%A9rgio-da-costa-c%C3%B4rtes-01032951/" } },
-      { "title": "Automação Inteligente", "description": "Descubra como automatizar processos com agentes de IA.", "date": "06/10 — 14:00 às 17:00", "speaker": { "name": "Em breve", "photo": "img/coord/person.png", "lattes": "#", "linkedin": "#" } },
-      { "title": "Dados e Decisões", "description": "Como a IA está transformando a análise de dados e a tomada de decisão.", "date": "07/10 — 09:00 às 12:00", "speaker": { "name": "Em breve", "photo": "img/coord/person.png", "lattes": "#", "linkedin": "#" } }
     ]
   },
   "partners": {
     "title": "Parceiros",
     "items": [
-      { "name": "IESB", "logo": "img/parceiros/iesb.png", "description": "Instituto de Educação Superior de Brasília — instituição idealizadora e principal apoiadora.", "url": "https://www.iesb.br" },
-      { "name": "Amazon Web Services", "logo": "img/parceiros/Amazon_Web_Services-Logo.wine.svg", "description": "Infraestrutura de nuvem que sustenta o armazenamento, processamento e análise de dados.", "url": "https://aws.amazon.com" },
-      { "name": "SAS", "logo": "logo/logo_sas.webp", "description": "Líder global em soluções de analytics, fornecendo plataforma tecnológica de ponta.", "url": "https://www.sas.com" },
-      { "name": "DataI — Empresa Júnior", "logo": "img/parceiros/datai.png", "description": "Empresa Júnior de Ciência de Dados e Inteligência Artificial do IESB.", "url": "https://datai.tec.br/" }
+      {
+        "name": "IESB",
+        "logo": "img/parceiros/iesb.png",
+        "description": "Instituto de Educação Superior de Brasília — instituição idealizadora e principal apoiadora.",
+        "url": "https://www.iesb.br"
+      },
+      {
+        "name": "Amazon Web Services",
+        "logo": "img/parceiros/Amazon_Web_Services-Logo.wine.svg",
+        "description": "Infraestrutura de nuvem que sustenta o armazenamento, processamento e análise de dados.",
+        "url": "https://aws.amazon.com"
+      },
+      {
+        "name": "SAS",
+        "logo": "logo/logo_sas.webp",
+        "description": "Líder global em soluções de analytics, fornecendo plataforma tecnológica de ponta.",
+        "url": "https://www.sas.com"
+      },
+      {
+        "name": "DataI — Empresa Júnior",
+        "logo": "img/parceiros/datai.png",
+        "description": "Empresa Júnior de Ciência de Dados e Inteligência Artificial do IESB.",
+        "url": "https://datai.tec.br/"
+      }
     ]
   },
   "registration": {
-    "title": "Inscrição",
-    "description": "Garanta sua vaga no evento que vai reiniciar sua visão sobre Inteligência Artificial.",
+    "title": "Submissão de Trabalho",
+    "description": "Edital nº 04/2026 — Chamada para submissão, seleção e apresentação de trabalhos acadêmicos, científicos, tecnológicos e de inovação no REBOOT.",
+    "body": "<div class=\"edital-meta\"><span>📅 Evento: 6 e 7 de outubro de 2026</span><span>📍 Unidade Edson Machado — Campus Sul, IESB</span><span>⏰ Inscrições até 21/09/2026, 23h59</span><span>🆓 Inscrições gratuitas</span></div><p>A Reitoria do Centro Universitário IESB, por meio da Comissão Organizadora do <strong>REBOOT — O Impacto da IA nas Nossas Vidas</strong>, torna pública a abertura das inscrições para submissão de trabalhos acadêmicos, científicos, tecnológicos e de inovação para apresentação no evento.</p><h3>Tema</h3><p>“Inteligência Artificial e sua aplicabilidade nas diversas áreas de atuação profissional.” São aceitos: pesquisas científicas, estudos de caso, relatos de experiência, projetos acadêmicos, produtos e protótipos, soluções tecnológicas, aplicações profissionais, projetos de inovação e iniciativas de impacto social relacionadas à IA.</p><h3>Quem pode participar</h3><ul><li>Estudantes de graduação do IESB;</li><li>Estudantes de pós-graduação (lato sensu ou stricto sensu) do IESB;</li><li>Docentes do IESB;</li><li>Integrantes do corpo técnico-administrativo do IESB.</li></ul><p>A participação pode ser individual ou em equipe (até 5 autores por trabalho, incluindo o orientador). Cada participante pode integrar até 2 trabalhos.</p><h3>Modalidades de apresentação</h3><ul><li><strong>Vitrine de Inovação em IA</strong> — até 5 trabalhos (espaço exclusivo, computador e monitor/TV);</li><li><strong>Demonstração Tecnológica</strong> — até 10 trabalhos (espaço e computador);</li><li><strong>Mostra de Banners Científicos</strong> — até 25 trabalhos (banner 90×120 cm, orientação vertical).</li></ul><p>Serão selecionados até 40 trabalhos no total. A Comissão Científica poderá remanejar vagas entre as modalidades.</p><h3>Como se inscrever</h3><p>As inscrições são gratuitas e vão até <strong>21 de setembro de 2026, às 23h59</strong> (horário de Brasília), exclusivamente pelo formulário eletrônico. No ato da inscrição informe: título, modalidade pretendida, autores e vínculo com o IESB, orientador (quando houver), resumo de até 500 palavras, descrição da aplicação de IA e resultados obtidos ou esperados.</p><h3>Cronograma</h3><ul><li>Publicação do edital: 03/09/2026;</li><li>Submissão dos trabalhos: até 21/09/2026;</li><li>Avaliação pela Comissão Científica: 22/09 a 25/09/2026;</li><li>Divulgação dos resultados: 26/09/2026;</li><li>Realização do REBOOT: 06 e 07/10/2026.</li></ul><p>O resultado será divulgado no site oficial do REBOOT e nos canais oficiais do IESB. Consulte o edital completo para todas as regras, critérios de avaliação, certificação e disposições finais.</p>",
+    "editalText": "Acessar o edital completo",
+    "editalUrl": "docs/edital-04-2026-reboot.pdf",
     "buttonText": "Inscreva-se",
-    "buttonUrl": "#"
+    "buttonUrl": "https://forms.gle/1UQiQwjFkmqSF9xy5"
   },
   "coordination": {
     "title": "Coordenação",
@@ -68,22 +123,58 @@
       {
         "label": "Coordenação Geral",
         "members": [
-          { "name": "Prof. Luiz Claudio Costa", "role": "Reitor do IESB", "photo": "img/coord/Luiz Claudio.png", "lattes": "http://lattes.cnpq.br/7149664393873107", "linkedin": "https://www.linkedin.com/in/luizcostawej113/" },
-          { "name": "Profa. Roberta Carolina Lima Gontijos de Lacerda", "role": "Pró-Reitora de Graduação", "photo": "img/coord/Roberta Gontijo.png", "lattes": "http://lattes.cnpq.br/7346634516941175", "linkedin": "https://www.linkedin.com/in/roberta-gontijo-phd-4110213a/" }
+          {
+            "name": "Prof. Luiz Claudio Costa",
+            "role": "Reitor do IESB",
+            "photo": "img/coord/Luiz Claudio.png",
+            "lattes": "http://lattes.cnpq.br/7149664393873107",
+            "linkedin": "https://www.linkedin.com/in/luizcostawej113/"
+          },
+          {
+            "name": "Profa. Roberta Carolina Lima Gontijos de Lacerda",
+            "role": "Pró-Reitora de Graduação",
+            "photo": "img/coord/Roberta Gontijo.png",
+            "lattes": "http://lattes.cnpq.br/7346634516941175",
+            "linkedin": "https://www.linkedin.com/in/roberta-gontijo-phd-4110213a/"
+          }
         ]
       },
       {
         "label": "Coordenação Acadêmica",
         "members": [
-          { "name": "Prof. Sérgio da Costa Côrtes", "role": "Coordenador Geral", "photo": "img/coord/sergio.jpeg", "lattes": "http://lattes.cnpq.br/1206696860799261", "linkedin": "https://www.linkedin.com/in/s%C3%A9rgio-da-costa-c%C3%B4rtes-01032951/" },
-          { "name": "Profa. Patrícia Moscariello Rodrigues", "role": "Coordenadora Geral", "photo": "img/coord/PatriciaMoscariello.png", "lattes": "", "linkedin": "https://www.linkedin.com/in/patricia-moscariello-abab8311a/"  },
-          { "name": "Prof. Francisco Marcelo Marques Lima", "role": "Coordenador Geral", "photo": "img/coord/FranciscoMarcelo.png", "lattes": "", "linkedin": "https://www.linkedin.com/in/marques-marcelo/"  }
+          {
+            "name": "Prof. Sérgio da Costa Côrtes",
+            "role": "Coordenador Geral",
+            "photo": "img/coord/sergio.jpeg",
+            "lattes": "http://lattes.cnpq.br/1206696860799261",
+            "linkedin": "https://www.linkedin.com/in/s%C3%A9rgio-da-costa-c%C3%B4rtes-01032951/"
+          },
+          {
+            "name": "Profa. Patrícia Moscariello Rodrigues",
+            "role": "Coordenadora Geral",
+            "photo": "img/coord/PatriciaMoscariello.png",
+            "lattes": "",
+            "linkedin": "https://www.linkedin.com/in/patricia-moscariello-abab8311a/"
+          },
+          {
+            "name": "Prof. Francisco Marcelo Marques Lima",
+            "role": "Coordenador Geral",
+            "photo": "img/coord/FranciscoMarcelo.png",
+            "lattes": "",
+            "linkedin": "https://www.linkedin.com/in/marques-marcelo/"
+          }
         ]
       },
       {
         "label": "Palestrantes",
         "members": [
-          { "name": "Em breve", "role": "Palestrante confirmado", "photo": "img/coord/person.png", "lattes": "#", "linkedin": "#" }
+          {
+            "name": "Em breve",
+            "role": "Palestrante confirmado",
+            "photo": "img/coord/person.png",
+            "lattes": "#",
+            "linkedin": "#"
+          }
         ]
       }
     ]
