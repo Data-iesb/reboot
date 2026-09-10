@@ -91,6 +91,16 @@
             "time": "08:00",
             "title": "boas-vindas aos participantes"
           },
+         {
+            "time": "8:30",
+            "title": "Keynote: IA Generetiva como uma Ferramenta de pesquisa e estudo",
+            "speaker": {
+            "name": "Profa. Roberta Carolina Lima Gontijos de Lacerda <br> Pró-Reitora de Graduação",
+            "photo": "img/coord/Roberta Gontijo.png",
+            "lattes": "http://lattes.cnpq.br/7346634516941175",
+            "linkedin": "https://www.linkedin.com/in/roberta-gontijo-phd-4110213a/"
+            }
+          },
          { 
             "time": "9:00",
             "title": "Inteligência Artificial no Judiciário: Uso Ético, Riscos e Desafios para o Futuro",
