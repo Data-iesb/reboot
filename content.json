@@ -74,7 +74,7 @@
             }
           },
           {
-            "time": "16:00",
+            "time": "21:00",
             "title": "Networking"
           }
         ]
@@ -84,9 +84,19 @@
         "date": "07 de Outubro de 2026",
         "sessions": [
           {
-            "time": "09:00",
-            "title": "Oficinas Práticas (manhã)"
+            "time": "08:00",
+            "title": "boas-vindas aos participantes"
           },
+         { 
+            "time": "9:00",
+            "title": "Inteligência Artificial no Judiciário: Uso Ético, Riscos e Desafios para o Futuro",
+            "speaker": {
+              "name": "Pedro Matos de Arruda",
+              "photo": "img/coord/PedroArruda.jpg",
+              "lattes": "http://lattes.cnpq.br/3659656961051509",
+              "linkedin": ""
+            }
+             },
           {
             "time": "14:00",
             "title": "Oficinas Práticas (tarde)"
