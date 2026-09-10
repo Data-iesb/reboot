@@ -53,7 +53,16 @@
               "linkedin": "linkedin.com/in/andresathler/"
             }
           },
-        
+          { 
+            "time": "19:00",
+            "title": "Gestão, Empreendedorismo e Inovação <br> O que acontece com a Gestão quando a Inteligência deixa de ser escassa?",
+            "speaker": {
+              "name": "Prof. André Rehbein Sathler Guimarães ",
+              "photo": "img/coord/AndreRehbein.jpg",
+              "lattes": "http://lattes.cnpq.br/9394532830433721",
+              "linkedin": "linkedin.com/in/andresathler/"
+            }
+          },
           {
             "time": "16:00",
             "title": "Networking"
