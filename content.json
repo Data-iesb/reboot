@@ -33,7 +33,7 @@
               "linkedin": "https://www.linkedin.com/in/luizcostawej113/"
             }
           },
-          {
+         { 
             "time": "9:00",
             "title": "Palestra: Saúde e Tecnologia",
             "speaker": {
@@ -43,6 +43,17 @@
               "linkedin": "https://www.linkedin.com/in/celso-niskier/"
             }
              },
+         { 
+            "time": "19:00",
+            "title": "Gestão, Empreendedorismo e Inovação /n O que acontece com a Gestão quando a Inteligência deixa de ser escassa?",
+            "speaker": {
+              "name": "Prof. André Rehbein Sathler Guimarães ",
+              "photo": "img/coord/CelsoNiskier.jpg",
+              "lattes": "http://lattes.cnpq.br/4310855137768864",
+              "linkedin": "https://www.linkedin.com/in/celso-niskier/"
+            }
+          },
+          
           {
             "time": "16:00",
             "title": "Networking"
