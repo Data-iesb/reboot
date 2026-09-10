@@ -43,6 +43,10 @@
               "linkedin": "https://www.linkedin.com/in/celso-niskier/"
             }
              },
+          {
+            "time": "14:00",
+            "title": "Apresentação dos trabalhos selecionados"
+          },
          { 
             "time": "19:00",
             "title": "Gestão, Empreendedorismo e Inovação – Mesa Redonda <br> Gestão, Empreendedorismo e Inovação <br> O que acontece com a Gestão quando a Inteligência deixa de ser escassa?",
@@ -99,16 +103,36 @@
              },
           {
             "time": "14:00",
-            "title": "Oficinas Práticas (tarde)"
+            "title": "Apresentação dos trabalhos selecionados"
           },
-          {
+{ 
             "time": "19:00",
-            "title": "Mesa Redonda: Ética e IA",
+            "title": "Gestão, Empreendedorismo e Inovação – Mesa Redonda <br> Gestão, Empreendedorismo e Inovação <br> O que acontece com a Gestão quando a Inteligência deixa de ser escassa?",
             "speaker": {
-              "name": "Em breve",
-              "photo": "img/coord/person.png",
-              "lattes": "#",
-              "linkedin": "#"
+              "name": "Prof. André Rehbein Sathler Guimarães ",
+              "photo": "img/coord/AndreRehbein.jpg",
+              "lattes": "http://lattes.cnpq.br/9394532830433721",
+              "linkedin": "https://www.linkedin.com/in/andresathler/"
+            }
+          },
+          { 
+            "time": "",
+            "title": "Empreendedorismo, Gestão e Inovação para um Mercado em Transformação",
+            "speaker": {
+              "name": "Luciana Macedo <br> SEBRAE Nacional",
+              "photo": "img/coord/LucianaMacedo.jpg",
+              "lattes": "",
+              "linkedin": "https://www.linkedin.com/in/luciana-macedo-53b839145"
+            }
+          },
+             { 
+            "time": "",
+            "title": "Utilização de Inteligência Artificial em empresas e diferentes segmentos no Brasil",
+            "speaker": {
+              "name": "Diego Henrique Figueiredo  <br> GlobalWEB <br> Diretor Executivo de Negócios",
+              "photo": "img/coord/DiegoFigueiredo.jpg",
+              "lattes": "",
+              "linkedin": "https://www.linkedin.com/in/diegofigueiredo/"
             }
           },
           {
