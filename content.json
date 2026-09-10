@@ -107,32 +107,32 @@
           },
 { 
             "time": "19:00",
-            "title": "Gestão, Empreendedorismo e Inovação – Mesa Redonda <br> Gestão, Empreendedorismo e Inovação <br> O que acontece com a Gestão quando a Inteligência deixa de ser escassa?",
+            "title": "IA e suas Tecnologias Disruptivas – Mesa Redonda <br> A IA responde. Quem decide? <br> Inteligência Artificial, pensamento crítico e responsabilidade humana no futuro do trabalho.",
             "speaker": {
-              "name": "Prof. André Rehbein Sathler Guimarães ",
-              "photo": "img/coord/AndreRehbein.jpg",
-              "lattes": "http://lattes.cnpq.br/9394532830433721",
-              "linkedin": "https://www.linkedin.com/in/andresathler/"
+              "name": "Edmon da Silva",
+              "photo": "img/coord/EdmonSilva.jpg",
+              "lattes": "",
+              "linkedin": "https://www.linkedin.com/in/edmonsilva/"
             }
           },
           { 
             "time": "",
-            "title": "Empreendedorismo, Gestão e Inovação para um Mercado em Transformação",
+            "title": "IA além do hype: aplicações em empresas e Governos",
             "speaker": {
-              "name": "Luciana Macedo <br> SEBRAE Nacional",
-              "photo": "img/coord/LucianaMacedo.jpg",
-              "lattes": "",
-              "linkedin": "https://www.linkedin.com/in/luciana-macedo-53b839145"
+              "name": "Adriel Volzzi Sales",
+              "photo": "img/coord/AdrielSales.jpg",
+              "lattes": "https://lattes.cnpq.br/7907184756958693",
+              "linkedin": "https://www.linkedin.com/in/adrielvolzzi/"
             }
           },
              { 
             "time": "",
-            "title": "Utilização de Inteligência Artificial em empresas e diferentes segmentos no Brasil",
+            "title": "Como estudar com a IA Generativa",
             "speaker": {
-              "name": "Diego Henrique Figueiredo  <br> GlobalWEB <br> Diretor Executivo de Negócios",
-              "photo": "img/coord/DiegoFigueiredo.jpg",
-              "lattes": "",
-              "linkedin": "https://www.linkedin.com/in/diegofigueiredo/"
+            "name": "Professor Sérgio da Costa Côrtes <br> Coordenador do Curso de Ciência de Dados e Inteligência Artificial (IESB)",
+            "photo": "img/coord/sergio.jpeg",
+            "lattes": "http://lattes.cnpq.br/1206696860799261",
+            "linkedin": "https://www.linkedin.com/in/s%C3%A9rgio-da-costa-c%C3%B4rtes-01032951/"
             }
           },
           {
