@@ -21,7 +21,7 @@
         "sessions": [
           {
             "time": "8:00",
-            "title": "Credenciamento"
+            "title": "boas-vindas aos participantes"
           },
           {
             "time": "8:30",
@@ -34,11 +34,11 @@
             }
           },
           {
-            "time": "14:00",
-            "title": "Painel: IA nas Profissões",
+            "time": "9:00",
+            "title": "Palestra: Saúde e Tecnologia",
             "speaker": {
-              "name": "Em breve",
-              "photo": "img/coord/person.png",
+              "name": "Prof. Celso Niskier",
+              "photo": "img/coord/CelsoNiskier.jpg",
               "lattes": "#",
               "linkedin": "#"
             }
