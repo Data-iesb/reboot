@@ -39,10 +39,17 @@
             "speaker": {
               "name": "Prof. Celso Niskier",
               "photo": "img/coord/CelsoNiskier.jpg",
-              "description": "xxxxx.",
               "lattes": "http://lattes.cnpq.br/4310855137768864",
               "linkedin": "https://www.linkedin.com/in/celso-niskier/"
-            }
+            },
+          "speaker": {
+            "name": "Prof. Celso Niskier",
+            "photo": "img/coord/CelsoNiskier.jpg",
+            "role": "Educador e gestor do ensino superior",
+            "description": "Uma das principais lideranças do ensino superior brasileiro.",
+            "bio": "Prof. Celso Niskier possui ampla experiência em educação, gestão educacional, inovação e transformação digital, com destacada atuação no desenvolvimento da educação superior brasileira.",
+            "lattes": "http://lattes.cnpq.br/4310855137768864",
+            "linkedin": "https://www.linkedin.com/in/celso-niskier/"
           },
           {
             "time": "16:00",
