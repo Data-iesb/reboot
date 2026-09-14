@@ -78,7 +78,7 @@
             }
           },
           {
-            "time": "21:00",
+            "time": "<br>21:00",
             "title": "Networking"
           }
         ]
@@ -146,7 +146,7 @@
             }
           },
           {
-            "time": "21:00",
+            "time": "<br>21:00",
             "title": "Encerramento"
           }
         ]
