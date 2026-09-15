@@ -1,12 +1,23 @@
-name: Deploy to S3
+name: Deploy to EKS
 
+# CI/CD para o coordenador atualizar os dados do evento.
+# Basta editar content.json (ou as imagens em img/) e dar push na main:
+# este workflow reconstrói a imagem nginx, envia ao ECR e atualiza o pod no
+# cluster — sem precisar mexer em Kubernetes manualmente.
 on:
   push:
     branches: [main]
+  workflow_dispatch:
 
 permissions:
   id-token: write
   contents: read
+
+env:
+  ECR_REPO: 248189947068.dkr.ecr.us-east-1.amazonaws.com/reboot
+  DEPLOYMENT: reboot
+  CONTAINER: reboot
+  NAMESPACE: reboot
 
 jobs:
   deploy:
@@ -19,6 +30,23 @@ jobs:
           role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
           aws-region: us-east-1
 
-      - run: aws s3 sync . s3://reboot.dataiesb.com --exclude ".git/*" --exclude ".github/*" --delete
+      - uses: aws-actions/amazon-ecr-login@v2
 
-      - run: aws cloudfront create-invalidation --distribution-id E5RH1HRTC0A9I --paths "/*"
+      - name: Ensure ECR repository exists
+        run: |
+          aws ecr describe-repositories --repository-names reboot --region us-east-1 \
+            || aws ecr create-repository --repository-name reboot --region us-east-1
+
+      - name: Build and push
+        run: |
+          docker build -t $ECR_REPO:${{ github.sha }} -t $ECR_REPO:latest .
+          docker push $ECR_REPO:${{ github.sha }}
+          docker push $ECR_REPO:latest
+
+      - name: Deploy to EKS
+        run: |
+          aws eks update-kubeconfig --name dataiesb-cluster --region us-east-1
+          # apply garante que namespace/deployment/service existam no 1o deploy
+          kubectl apply -f k8s/deployment.yaml
+          kubectl set image deployment/$DEPLOYMENT $CONTAINER=$ECR_REPO:${{ github.sha }} -n $NAMESPACE
+          kubectl rollout status deployment/$DEPLOYMENT -n $NAMESPACE --timeout=180s
