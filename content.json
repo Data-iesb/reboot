@@ -21,30 +21,64 @@
         "sessions": [
           {
             "time": "8:00",
-            "title": "Credenciamento"
+            "title": "boas-vindas aos participantes"
           },
           {
             "time": "8:30",
-            "title": "Keynote: O Futuro do Trabalho com IA",
+            "title": "Boas-vindas ao 1º Reboot",
             "speaker": {
-              "name": "Prof. Luiz Claudio Costa",
+              "name": "Prof. Luiz Claudio Costa <br> Reitor do IESB",
               "photo": "img/coord/Luiz Claudio.png",
               "lattes": "http://lattes.cnpq.br/7149664393873107",
               "linkedin": "https://www.linkedin.com/in/luizcostawej113/"
             }
           },
           {
-            "time": "14:00",
-            "title": "Painel: IA nas Profissões",
+            "time": "9:00",
+            "title": "Palestra: Saúde e Tecnologia",
             "speaker": {
-              "name": "Em breve",
-              "photo": "img/coord/person.png",
-              "lattes": "#",
-              "linkedin": "#"
+              "name": "Prof. Celso Niskier",
+              "photo": "img/coord/CelsoNiskier.jpg",
+              "lattes": "http://lattes.cnpq.br/4310855137768864",
+              "linkedin": "https://www.linkedin.com/in/celso-niskier/"
             }
           },
           {
-            "time": "16:00",
+            "time": "<br>14:00",
+            "title": "Apresentação dos trabalhos selecionados <br>"
+          },
+          {
+            "time": "19:00",
+            "title": "Gestão, Empreendedorismo e Inovação – Mesa Redonda <br> Gestão, Empreendedorismo e Inovação <br> O que acontece com a Gestão quando a Inteligência deixa de ser escassa?",
+            "speaker": {
+              "name": "Prof. André Rehbein Sathler Guimarães ",
+              "photo": "img/coord/AndreRehbein.jpg",
+              "lattes": "http://lattes.cnpq.br/9394532830433721",
+              "linkedin": "https://www.linkedin.com/in/andresathler/"
+            }
+          },
+          {
+            "time": "",
+            "title": "Do prompt ao impacto: como a IA transformou o Ideias de Nogócios no Sebrae",
+            "speaker": {
+              "name": "Luciana Macedo <br> SEBRAE Nacional",
+              "photo": "img/coord/LucianaMacedo.jpg",
+              "lattes": "",
+              "linkedin": "https://www.linkedin.com/in/luciana-macedo-53b839145"
+            }
+          },
+          {
+            "time": "",
+            "title": "Utilização de Inteligência Artificial em empresas e diferentes segmentos no Brasil",
+            "speaker": {
+              "name": "Diego Henrique Figueiredo  <br> GlobalWEB <br> Diretor Executivo de Negócios",
+              "photo": "img/coord/DiegoFigueiredo.jpg",
+              "lattes": "",
+              "linkedin": "https://www.linkedin.com/in/diegofigueiredo/"
+            }
+          },
+          {
+            "time": "<br>21:00",
             "title": "Networking"
           }
         ]
@@ -54,25 +88,65 @@
         "date": "07 de Outubro de 2026",
         "sessions": [
           {
-            "time": "09:00",
-            "title": "Oficinas Práticas (manhã)"
+            "time": "08:00",
+            "title": "boas-vindas aos participantes"
           },
           {
-            "time": "14:00",
-            "title": "Oficinas Práticas (tarde)"
-          },
-          {
-            "time": "16:30",
-            "title": "Mesa Redonda: Ética e IA",
+            "time": "8:30",
+            "title": "Boas-vindas ao 1º Reboot",
             "speaker": {
-              "name": "Em breve",
-              "photo": "img/coord/person.png",
-              "lattes": "#",
-              "linkedin": "#"
+              "name": "Profa. Roberta Carolina Lima Gontijos de Lacerda <br> Pró-Reitora de Graduação",
+              "photo": "img/coord/Roberta Gontijo.png",
+              "lattes": "http://lattes.cnpq.br/7346634516941175",
+              "linkedin": "https://www.linkedin.com/in/roberta-gontijo-phd-4110213a/"
             }
           },
           {
-            "time": "18:00",
+            "time": "9:00",
+            "title": "Inteligência Artificial no Judiciário: Uso Ético, Riscos e Desafios para o Futuro",
+            "speaker": {
+              "name": "Pedro Matos de Arruda",
+              "photo": "img/coord/PedroArruda.jpg",
+              "lattes": "http://lattes.cnpq.br/3659656961051509",
+              "linkedin": ""
+            }
+          },
+          {
+            "time": "<br>14:00",
+            "title": "Apresentação dos trabalhos selecionados<br>"
+          },
+          {
+            "time": "19:00",
+            "title": "IA e suas Tecnologias Disruptivas – Mesa Redonda <br> A IA responde. Quem decide? <br> Inteligência Artificial, pensamento crítico e responsabilidade humana no futuro do trabalho.",
+            "speaker": {
+              "name": "Edmon da Silva",
+              "photo": "img/coord/EdmonSilva.jpg",
+              "lattes": "",
+              "linkedin": "https://www.linkedin.com/in/edmonsilva/"
+            }
+          },
+          {
+            "time": "",
+            "title": "IA além do hype: aplicações em empresas e Governos",
+            "speaker": {
+              "name": "Adriel Volzzi Sales",
+              "photo": "img/coord/AdrielSales.jpg",
+              "lattes": "https://lattes.cnpq.br/7907184756958693",
+              "linkedin": "https://www.linkedin.com/in/adrielvolzzi/"
+            }
+          },
+          {
+            "time": "",
+            "title": "",
+            "speaker": {
+              "name": "",
+              "photo": "",
+              "lattes": "",
+              "linkedin": ""
+            }
+          },
+          {
+            "time": "<br>21:00",
             "title": "Encerramento"
           }
         ]
