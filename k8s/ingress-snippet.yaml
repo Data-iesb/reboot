@@ -1,0 +1,33 @@
+# Ingress rule for the Reboot site.
+#
+# The cluster's ingress is a SHARED resource managed from a single file:
+#   ~/dataiesb/infra-network/ingress.yaml
+#
+# reboot.dataiesb.com is a DEDICATED host (like ghost / neo4j), so it gets its
+# own Ingress object rather than a path under app.dataiesb.com. Append the block
+# below to infra-network/ingress.yaml (as a new `---` document) and re-apply that
+# file. Do NOT create a standalone Ingress in the reboot namespace — keep every
+# ingress rule in the shared file per the infra-network conventions.
+#
+# ssl-redirect stays "false": TLS terminates at the ingress-nginx ELB.
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: reboot-ingress
+  namespace: reboot
+  annotations:
+    nginx.ingress.kubernetes.io/ssl-redirect: "false"
+spec:
+  ingressClassName: nginx
+  rules:
+    - host: reboot.dataiesb.com
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: reboot
+                port:
+                  number: 80
