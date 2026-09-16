@@ -1,7 +1,6 @@
 .git
 .github
 k8s
-docs
 buildspec.yml
 ghost-k8s.yaml
 TASK.md
