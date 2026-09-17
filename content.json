@@ -224,18 +224,18 @@
               "linkedin": "https://www.linkedin.com/in/andresathler/"
            },     
           {
+           "name": "Profa. Patrícia Moscariello Rodrigues",
+            "role": "Coordenador de Cursos de Graduação",
+            "photo": "img/coord/PatriciaMoscariello.png",
+            "lattes": "",
+            "linkedin": "https://www.linkedin.com/in/patricia-moscariello-abab8311a/"
+          },
+          {
             "name": "Prof. Sérgio da Costa Côrtes",
             "role": "Coordenador de Cursos de Graduação",
             "photo": "img/coord/sergio.jpeg",
             "lattes": "http://lattes.cnpq.br/1206696860799261",
             "linkedin": "https://www.linkedin.com/in/s%C3%A9rgio-da-costa-c%C3%B4rtes-01032951/"
-          },
-          {
-            "name": "Profa. Patrícia Moscariello Rodrigues",
-            "role": "Coordenador de Cursos de Graduação",
-            "photo": "img/coord/PatriciaMoscariello.png",
-            "lattes": "",
-            "linkedin": "https://www.linkedin.com/in/patricia-moscariello-abab8311a/"
           },
           {
             "name": "Prof. Francisco Marcelo Marques Lima",
@@ -247,12 +247,12 @@
         ]
       },
       {
-        "label": "Palestrantes",
+        "label": "",
         "members": [
           {
-            "name": "Em breve",
-            "role": "Palestrante confirmado",
-            "photo": "img/coord/person.png",
+            "name": "",
+            "role": "",
+            "photo": "g",
             "lattes": "#",
             "linkedin": "#"
           }
