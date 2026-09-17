@@ -45,6 +45,17 @@
             }
           },
           {
+            "time": "10:00",
+            "title": "Palestra: Saúde e Tecnologia",
+            "speaker": {
+              "name": "Arnóbio Morelix",
+              "photo": "img/ArnobioMorelix.jpg",
+              "bio": "<p>Cofundador e CEO da Sirius, a faculdade das profissões do futuro.</p><p>Autor bestseller do ‘Rebooted’.</p><p>Empreendedor – Vale do Silício.</p>",
+              "lattes": "",
+              "linkedin": "https://www.linkedin.com/in/arnobiomorelix/"
+            }
+          },
+          {
             "time": "<br>14:30",
             "title": "Apresentação dos trabalhos selecionados <br>"
           },
