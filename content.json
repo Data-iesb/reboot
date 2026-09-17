@@ -192,7 +192,7 @@
     "buttonUrl": "https://forms.gle/1UQiQwjFkmqSF9xy5"
   },
   "coordination": {
-    "title": "Coordenação",
+    "title": "Comissão de IA do IESB",
     "sections": [
       {
         "label": "",
@@ -206,7 +206,7 @@
           },
           {
             "name": "Profa. Roberta Carolina Lima Gontijos de Lacerda",
-            "role": "Pró-Reitora de Graduação",
+            "role": "Pró-Reitora de Graduação e Extensão do IESB",
             "photo": "img/coord/Roberta Gontijo.png",
             "lattes": "http://lattes.cnpq.br/7346634516941175",
             "linkedin": "https://www.linkedin.com/in/roberta-gontijo-phd-4110213a/"
@@ -216,23 +216,30 @@
       {
         "label": "",
         "members": [
+          {         
+            "name": "Prof. André Rehbein Sathler Guimarães ",
+            "role": "Coordenador do Mestrado em Gestão Estratégica de Organizações - MGEO",
+              "photo": "img/coord/AndreRehbein.jpg",
+              "lattes": "http://lattes.cnpq.br/9394532830433721",
+              "linkedin": "https://www.linkedin.com/in/andresathler/"
+           },     
           {
             "name": "Prof. Sérgio da Costa Côrtes",
-            "role": "Coordenador Geral",
+            "role": "Coordenador de Cursos de Graduação",
             "photo": "img/coord/sergio.jpeg",
             "lattes": "http://lattes.cnpq.br/1206696860799261",
             "linkedin": "https://www.linkedin.com/in/s%C3%A9rgio-da-costa-c%C3%B4rtes-01032951/"
           },
           {
             "name": "Profa. Patrícia Moscariello Rodrigues",
-            "role": "Coordenadora Geral",
+            "role": "Coordenador de Cursos de Graduação",
             "photo": "img/coord/PatriciaMoscariello.png",
             "lattes": "",
             "linkedin": "https://www.linkedin.com/in/patricia-moscariello-abab8311a/"
           },
           {
             "name": "Prof. Francisco Marcelo Marques Lima",
-            "role": "Coordenador Geral",
+            "role": "Coordenador de Cursos de Graduação",
             "photo": "img/coord/FranciscoMarcelo.png",
             "lattes": "",
             "linkedin": "https://www.linkedin.com/in/marques-marcelo/"
