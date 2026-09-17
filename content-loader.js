@@ -56,6 +56,11 @@ class ContentLoader {
                         <div class="coord-info">
                             <h4>${sess.time} – ${sess.title}</h4>
                             <div class="coord-role">${sess.speaker.name}</div>
+                            ${sess.speaker.bio ? `
+                                <div class="speaker-bio">
+                                ${sess.speaker.bio}
+                            </div>
+                                ` : ''}
                             <div class="coord-links">
                                 ${sess.speaker.lattes ? `<a href="${sess.speaker.lattes}" target="_blank">Lattes</a>` : ''}
                                 ${sess.speaker.linkedin ? `<a href="${sess.speaker.linkedin}" target="_blank">LinkedIn</a>` : ''}
