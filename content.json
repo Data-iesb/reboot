@@ -27,7 +27,7 @@
             "time": "8:30",
             "title": "Boas-vindas ao 1º Reboot",
             "speaker": {
-              "name": "Prof. Luiz Claudio Costa <br> Reitor do IESB",
+              "name": "<strong>Prof. Luiz Claudio Costa</strong> <br> Reitor do IESB",
               "photo": "img/coord/Luiz Claudio.png",
               "lattes": "http://lattes.cnpq.br/7149664393873107",
               "linkedin": "https://www.linkedin.com/in/luizcostawej113/"
@@ -48,7 +48,7 @@
             "time": "10:00",
             "title": "Palestra: Saúde e Tecnologia",
             "speaker": {
-              "name": "Arnóbio Morelix",
+              "name": "<strong>Arnóbio Morelix</strong>",
               "photo": "img/coord/ArnobioMorelix.jpg",
               "bio": "<p>Cofundador e CEO da Sirius, a faculdade das profissões do futuro.</p><p>Autor bestseller do ‘Rebooted’.</p><p>Empreendedor – Vale do Silício.</p>",
               "lattes": "",
@@ -57,13 +57,13 @@
           },
           {
             "time": "<br>14:30",
-            "title": "Apresentação dos trabalhos selecionados <br>"
+            "title": "<strong>Apresentação dos trabalhos selecionados</strong> <br>"
           },
           {
             "time": "19:00",
             "title": "Gestão, Empreendedorismo e Inovação – Mesa Redonda <br> Gestão, Empreendedorismo e Inovação <br> O que acontece com a Gestão quando a Inteligência deixa de ser escassa?",
             "speaker": {
-              "name": "Prof. André Rehbein Sathler Guimarães ",
+              "name": "<strong>Prof. André Rehbein Sathler Guimarães</strong>",
               "photo": "img/coord/AndreRehbein.jpg",
               "bio": "Pesquisador e docente de Pós-Graduação em Administração e Democracia (Poder Legislativo), Analista Legislativo na Câmara dos Deputados do Brasil e Coordenador do Mestrado em Gestão Estratégica de Organizações (MGEO) do IESB.",
               "lattes": "http://lattes.cnpq.br/9394532830433721",
@@ -74,7 +74,7 @@
             "time": "",
             "title": "Do prompt ao impacto: como a IA transformou o Ideias de Nogócios no Sebrae",
             "speaker": {
-              "name": "Luciana Macedo <br> SEBRAE Nacional",
+              "name": "<strong>Luciana Macedo <br> SEBRAE Nacional</strong>",
               "photo": "img/coord/LucianaMacedo.jpg",
               "bio": "<p>Graduada em Biblioteconomia pela UnB e especialista em Gestão do Conhecimento.</p><p>Atua há 14 anos no Sebrae Nacional, liderando estratégias de conteúdo digital, SEO e experiência do cliente para o Portal e App.</p><p>Atualmente, desenvolve iniciativas relacionadas à aplicação de Inteligência Artificial para automatização, escala e personalização de conteúdos técnicos.</p>",
               "lattes": "",
@@ -85,7 +85,7 @@
             "time": "",
             "title": "Utilização de Inteligência Artificial em empresas e diferentes segmentos no Brasil",
             "speaker": {
-              "name": "Diego Henrique Figueiredo  <br> GlobalWEB <br> Diretor Executivo de Negócios",
+              "name": "<strong>Diego Henrique Figueiredo</strong><br> GlobalWEB <br> Diretor Executivo de Negócios",
               "photo": "img/coord/DiegoFigueiredo.jpg",
               "bio": "<p>Executivo com visão corporativa de mercado sobre a utilização de Inteligência Artificial em empresas e diferentes segmentos no Brasil.</p>",    
               "lattes": "",
@@ -110,7 +110,7 @@
            "time": "8:30",
             "title": "Boas-vindas ao 1º Reboot",
             "speaker": {
-              "name": "Prof. Luiz Claudio Costa <br> Reitor do IESB",
+              "name": "<strong>Prof. Luiz Claudio Costa</strong><br>Reitor do IESB",
               "photo": "img/coord/Luiz Claudio.png",
               "bio": "",
               "lattes": "http://lattes.cnpq.br/7149664393873107",
@@ -121,7 +121,7 @@
             "time": "9:00",
             "title": "Inteligência Artificial no Judiciário: Uso Ético, Riscos e Desafios para o Futuro",
             "speaker": {
-              "name": "Pedro Matos de Arruda <br> Juiz de Direito Substituto do TJDFT e Coordenador do Centro de Inteligência da Justiça do Distrito Federal – CIJDF",
+              "name": "<strong>Pedro Matos de Arruda</strong> <br> Juiz de Direito Substituto do TJDFT e Coordenador do Centro de Inteligência da Justiça do Distrito Federal – CIJDF",
               "photo": "img/coord/PedroArruda.jpg",
               "bio": "<p>Membro da Comissão de Inteligência Artificial do TJDFT e instrutor das Oficinas de Uso da IA para o 1º Grau.</p><p>Possui experiência na aplicação de Inteligência Artificial como ferramenta de apoio à atividade jurisdicional e no desenvolvimento de soluções de automação de rotinas no Poder Judiciário.</p>",
               "lattes": "http://lattes.cnpq.br/3659656961051509",
@@ -136,7 +136,7 @@
             "time": "19:00",
             "title": "IA e suas Tecnologias Disruptivas – Mesa Redonda <br> A IA responde. Quem decide? <br> Inteligência Artificial, pensamento crítico e responsabilidade humana no futuro do trabalho.",
             "speaker": {
-              "name": "Edmon da Silva",
+              "name": "<strong>Edmon da Silva</strong>",
               "photo": "img/coord/EdmonSilva.jpg",
               "bio": "<p>Lidera uma das maiores estruturas de design do país, com mais de 350 designers.</p><p>Atua também como professor em pós-graduação de Liderança em UX e pesquisa a interseção entre Design e Inteligência Artificial, tanto na aplicação prática da IA em processos de criação e decisão quanto na reflexão sobre o papel do designer nesse novo cenário.</p>",
               "lattes": "",
@@ -147,7 +147,7 @@
             "time": "",
             "title": "IA além do hype: aplicações em empresas e Governos",
             "speaker": {
-              "name": "Adriel Volzzi Sales",
+              "name": "<strong>Adriel Volzzi Sales</strong>",
               "photo": "img/coord/AdrielSales.jpg",
               "bio": "<p> Customer Advisor na multinacional SAS, uma das maiores empresas de Inteligência Artificial nos E.U.A, apoiando contas de Governo na América Latina com analytics e inteligência artificial aplicado à gestão pública.</p><p>Especialista em Modelagem Preditiva, séries temporais e machine learning aplicados a problemas de gestão pública, em SAS, Python ou R.</p><p>Formado em Ciência de Dados e Inteligência pelo IESB.</p><p>Movido por criar e inovar utilizando Inteligência Artificial.</p>",
               "lattes": "https://lattes.cnpq.br/7907184756958693",
@@ -158,7 +158,7 @@
             "time": "",
             "title": "Reinvente-se ou Desapareça",
             "speaker": {
-              "name": "Fábio André Lopes",
+              "name": "<strong>Fábio André Lopes</strong>",
               "photo": "img/coord/FabioAndreLopes.jpg",
               "bio": "<p>Fábio André Lopes é administrador, especialista em Planejamento e Gestão Empresarial, com mais de 20 anos de experiência em comunicação, marketing, eventos e ensino superior. .</p><p>É Diretor Geral e Produtor Master da REALIZZE Produção de Eventos, dirige a EIXO Comunicação, Marketing e Publicidade e atua como Embaixador e Legend Partner da WIX, realizando treinamentos e palestras sobre tecnologia.</p><p> No meio acadêmico, foi professor do IESB por mais de oito anos, atuando nos cursos de Publicidade, Cinema, Fotografia e Produção Multimídia.</p><p>Possui ampla experiência em assessoria empresarial, planejamento estratégico, marketing e gestão de equipes.</p><p>Desde 2020, atua também no ecossistema de startups e, em 2022, fundou a UniEmpreendedor, iniciativa voltada ao desenvolvimento de empreendedores, com projeto recentemente aprovado pela FAP-DF.</p>",
               "lattes": "",
