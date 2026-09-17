@@ -138,6 +138,7 @@
             "speaker": {
               "name": "Edmon da Silva",
               "photo": "img/coord/EdmonSilva.jpg",
+              "bio": "<p>Lidera uma das maiores estruturas de design do país, com mais de 350 designers.</p><p>Atua também como professor em pós-graduação de Liderança em UX e pesquisa a interseção entre Design e Inteligência Artificial, tanto na aplicação prática da IA em processos de criação e decisão quanto na reflexão sobre o papel do designer nesse novo cenário.</p>",
               "lattes": "",
               "linkedin": "https://www.linkedin.com/in/edmonsilva/"
             }
@@ -148,7 +149,7 @@
             "speaker": {
               "name": "Adriel Volzzi Sales",
               "photo": "img/coord/AdrielSales.jpg",
-              "bio": "",
+              "bio": "<p> Customer Advisor na multinacional SAS, uma das maiores empresas de Inteligência Artificial nos E.U.A, apoiando contas de Governo na América Latina com analytics e inteligência artificial aplicado à gestão pública.</p><p>Especialista em Modelagem Preditiva, séries temporais e machine learning aplicados a problemas de gestão pública, em SAS, Python ou R.</p><p>Formado em Ciência de Dados e Inteligência pelo IESB.</p><p>Movido por criar e inovar utilizando Inteligência Artificial.</p>",
               "lattes": "https://lattes.cnpq.br/7907184756958693",
               "linkedin": "https://www.linkedin.com/in/adrielvolzzi/"
             }
