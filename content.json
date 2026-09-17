@@ -54,6 +54,7 @@
             "speaker": {
               "name": "Prof. André Rehbein Sathler Guimarães ",
               "photo": "img/coord/AndreRehbein.jpg",
+              "bio": "",
               "lattes": "http://lattes.cnpq.br/9394532830433721",
               "linkedin": "https://www.linkedin.com/in/andresathler/"
             }
@@ -64,6 +65,7 @@
             "speaker": {
               "name": "Luciana Macedo <br> SEBRAE Nacional",
               "photo": "img/coord/LucianaMacedo.jpg",
+              "bio": "",
               "lattes": "",
               "linkedin": "https://www.linkedin.com/in/luciana-macedo-53b839145"
             }
@@ -74,6 +76,7 @@
             "speaker": {
               "name": "Diego Henrique Figueiredo  <br> GlobalWEB <br> Diretor Executivo de Negócios",
               "photo": "img/coord/DiegoFigueiredo.jpg",
+              "bio": "",    
               "lattes": "",
               "linkedin": "https://www.linkedin.com/in/diegofigueiredo/"
             }
@@ -98,6 +101,7 @@
             "speaker": {
               "name": "Prof. Luiz Claudio Costa <br> Reitor do IESB",
               "photo": "img/coord/Luiz Claudio.png",
+              "bio": "",
               "lattes": "http://lattes.cnpq.br/7149664393873107",
               "linkedin": "https://www.linkedin.com/in/luizcostawej113/"
             }
@@ -108,6 +112,7 @@
             "speaker": {
               "name": "Pedro Matos de Arruda",
               "photo": "img/coord/PedroArruda.jpg",
+              "bio": "",
               "lattes": "http://lattes.cnpq.br/3659656961051509",
               "linkedin": ""
             }
@@ -132,6 +137,7 @@
             "speaker": {
               "name": "Adriel Volzzi Sales",
               "photo": "img/coord/AdrielSales.jpg",
+              "bio": "",
               "lattes": "https://lattes.cnpq.br/7907184756958693",
               "linkedin": "https://www.linkedin.com/in/adrielvolzzi/"
             }
