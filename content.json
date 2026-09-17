@@ -87,7 +87,7 @@
             "speaker": {
               "name": "Diego Henrique Figueiredo  <br> GlobalWEB <br> Diretor Executivo de Negócios",
               "photo": "img/coord/DiegoFigueiredo.jpg",
-              "bio": "<p>Executivo com visão corporativa de mercado sobre a utilização de Inteligência Artificial em empresas e diferentes segmentos no Brasil</p>.",    
+              "bio": "<p>Executivo com visão corporativa de mercado sobre a utilização de Inteligência Artificial em empresas e diferentes segmentos no Brasil.</p>",    
               "lattes": "",
               "linkedin": "https://www.linkedin.com/in/diegofigueiredo/"
             }
@@ -121,9 +121,9 @@
             "time": "9:00",
             "title": "Inteligência Artificial no Judiciário: Uso Ético, Riscos e Desafios para o Futuro",
             "speaker": {
-              "name": "Pedro Matos de Arruda",
+              "name": "Pedro Matos de Arruda <br> Juiz de Direito Substituto do TJDFT e Coordenador do Centro de Inteligência da Justiça do Distrito Federal – CIJDF",
               "photo": "img/coord/PedroArruda.jpg",
-              "bio": "",
+              "bio": "<p>Membro da Comissão de Inteligência Artificial do TJDFT e instrutor das Oficinas de Uso da IA para o 1º Grau.</p><p>Possui experiência na aplicação de Inteligência Artificial como ferramenta de apoio à atividade jurisdicional e no desenvolvimento de soluções de automação de rotinas no Poder Judiciário.</p>",
               "lattes": "http://lattes.cnpq.br/3659656961051509",
               "linkedin": ""
             }
