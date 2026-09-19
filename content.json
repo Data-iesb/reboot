@@ -268,12 +268,24 @@
             "lattes": "http://lattes.cnpq.br/1206696860799261",
             "linkedin": "https://www.linkedin.com/in/s%C3%A9rgio-da-costa-c%C3%B4rtes-01032951/"
           },
-          {
-            "name": "Prof. Francisco Marcelo Marques Lima",
+         {
+           "name": "Prof. Francisco Marcelo Marques Lima",
             "role": "Coordenador de Cursos de Graduação",
             "photo": "img/coord/FranciscoMarcelo.png",
             "lattes": "",
-            "linkedin": "https://www.linkedin.com/in/marques-marcelo/"
+            "linkedin": "https://www.linkedin.com/in/marques-marcelo/" 
+           "name": "Prof. Pablo Coelho Ferreira",
+            "role": "Professor do IESB e Coordenador do Centro de Robótica e Inteligência Artificial (CRIA) do IESB",
+            "photo": "img/PabloCoelho.jpeg",
+            "lattes": "http://lattes.cnpq.br/0909431641369485",
+            "linkedin": "https://www.linkedin.com/in/pablocoelho/"
+          },
+          {
+            "name": "Prof. Pablo Coelho Ferreira",
+            "role": "Professor do IESB e Coordenador do Centro de Robótica e Inteligência Artificial (CRIA) do IESB",
+            "photo": "img/PabloCoelho.jpeg",
+            "lattes": "http://lattes.cnpq.br/0909431641369485",
+            "linkedin": "https://www.linkedin.com/in/pablocoelho/" 
           }
         ]
       },
