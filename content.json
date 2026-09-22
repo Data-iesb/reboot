@@ -20,11 +20,11 @@
         "date": "06 de Outubro de 2026",
         "sessions": [
           {
-            "time": "8:00-8:30 - Credenciamento",
+            "time": "8h às 8h30 - Credenciamento",
             "title": "A participação é gratuita e dispensa inscrição prévia, estando limitada ao número de lugares disponíveis no auditório"
           },
           {
-            "time": "8:30",
+            "time": "8h30  às 9h",
             "title": "Boas-vindas ao 1º Reboot",
             "speaker": {
               "name": "<strong>Prof. Luiz Claudio Costa</strong> <br> Reitor do IESB",
@@ -34,7 +34,7 @@
             }
           },
           {
-            "time": "9:00",
+            "time": "9h às 10h",
             "title": "Palestra: Inteligência Ampliada: Um Novo Paradgima para a Educação Superior",
             "speaker": {
               "name": "<strong>Prof. Celso Niskier</strong>",
@@ -45,8 +45,8 @@
             }
           },
           {
-            "time": "10:00",
-            "title": "Palestra: Saúde e Tecnologia",
+            "time": "10h às 11h",
+            "title": "Inteligência Artificial e as Profissões do Futuro",
             "speaker": {
               "name": "<strong>Arnóbio Morelix</strong>",
               "photo": "img/coord/ArnobioMorelix.jpg",
@@ -56,11 +56,11 @@
             }
           },
           {
-            "time": "<br>14:30",
+            "time": "<br>14h30 às 17h30",
             "title": "<strong>Apresentação dos trabalhos (conforme programação a ser divulgada a partir do dia 29 de setembro)</strong> <br>"
           },
           {
-            "time": "19:00",
+            "time": "19h às 21h",
             "title": "Gestão, Empreendedorismo e Inovação – Mesa Redonda <br> Gestão, Empreendedorismo e Inovação <br> O que acontece com a Gestão quando a Inteligência deixa de ser escassa?",
             "speaker": {
               "name": "<strong>Prof. André Rehbein Sathler Guimarães</strong>",
@@ -103,12 +103,12 @@
         "date": "07 de Outubro de 2026",
         "sessions": [
           {
-            "time": "8:00-8:30 - Credenciamento",
+            "time": "8h às 8h30 - Credenciamento",
             "title": "A participação é gratuita e dispensa inscrição prévia, estando limitada ao número de lugares disponíveis no auditório"
   
           },
           {
-           "time": "8:30",
+           "time": "8h30 às 9h",
             "title": "Boas-vindas ao 1º Reboot",
             "speaker": {
               "name": "<strong>Prof. Luiz Claudio Costa</strong><br>Reitor do IESB",
@@ -119,7 +119,7 @@
             }
           },
           {
-            "time": "9:00",
+            "time": "9h às 10h",
             "title": "Inteligência Artificial no Judiciário: Uso Ético, Riscos e Desafios para o Futuro",
             "speaker": {
               "name": "<strong>Pedro Matos de Arruda</strong> <br> Juiz de Direito Substituto do TJDFT e Coordenador do Centro de Inteligência da Justiça do Distrito Federal – CIJDF",
@@ -130,11 +130,11 @@
             }
           },
           {
-            "time": "<br>14:30",
+            "time": "<br>14h30 às 17h30",
             "title": "<strong>Apresentação dos trabalhos (conforme programação a ser divulgada a partir do dia 29 de setembro)</strong> <br>"
           },
           {
-            "time": "19:00",
+            "time": "19h às 21h",
             "title": "IA e suas Tecnologias Disruptivas – Mesa Redonda <br> A IA responde. Quem decide? <br> Inteligência Artificial, pensamento crítico e responsabilidade humana no futuro do trabalho.",
             "speaker": {
               "name": "<strong>Edmon da Silva</strong>",
@@ -177,7 +177,7 @@
             }
           },
           {
-            "time": "<br>21:00",
+            "time": "<br>21h",
             "title": "Encerramento"
           }
         ]
