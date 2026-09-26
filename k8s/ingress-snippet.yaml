@@ -31,3 +31,13 @@ spec:
                 name: reboot
                 port:
                   number: 80
+    - host: reboot.iesb.br
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: reboot
+                port:
+                  number: 80

@@ -178,17 +178,7 @@
             }
           },
           {
-            "time": "",
-            "title": "",
-            "speaker": {
-              "name": "",
-              "photo": "img/reboot-logo.png",
-              "lattes": "",
-              "linkedin": ""
-            }
-          },
-          {
-            "time": "<br>21h",
+            "time": "<br>21:00",
             "title": "Encerramento"
           }
         ]
@@ -232,6 +222,27 @@
     "editalUrl": "docs/edital-04-2026-reboot.pdf",
     "buttonText": "Inscreva-se",
     "buttonUrl": "https://forms.gle/1UQiQwjFkmqSF9xy5"
+  },
+  "results": {
+    "title": "Resultado da Submissão dos Trabalhos",
+    "description": "Confira abaixo os trabalhos selecionados pela Comissão Científica do REBOOT, organizados por categoria de apresentação.",
+    "categories": [
+      {
+        "name": "Vitrine de Inovação em IA",
+        "description": "Trabalhos selecionados para apresentação em espaço exclusivo, com computador e monitor/TV.",
+        "works": []
+      },
+      {
+        "name": "Demonstração Tecnológica",
+        "description": "Trabalhos selecionados para apresentação com espaço e computador.",
+        "works": []
+      },
+      {
+        "name": "Mostra de Banners Científicos",
+        "description": "Trabalhos selecionados para apresentação em banner 90×120 cm, orientação vertical.",
+        "works": []
+      }
+    ]
   },
   "coordination": {
     "title": "Comissão de IA do IESB",

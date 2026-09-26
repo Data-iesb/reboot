@@ -11,6 +11,7 @@ class ContentLoader {
         this.renderSchedule(c.schedule);
         this.renderPartners(c.partners);
         this.renderRegistration(c.registration);
+        this.renderResults(c.results);
         this.renderCoordination(c.coordination);
         document.getElementById('footer-text').innerHTML = c.footer.text;
     }
@@ -102,6 +103,32 @@ class ContentLoader {
         const btn = document.getElementById('registration-btn');
         btn.innerHTML = r.buttonText;
         btn.href = r.buttonUrl;
+    }
+
+    renderResults(r) {
+        if (!r) return;
+        document.getElementById('results-title').innerHTML = r.title || 'Resultado da Submissão dos Trabalhos';
+        document.getElementById('results-description').innerHTML = r.description || '';
+        const container = document.getElementById('results-content');
+        container.innerHTML = (r.categories || []).map(cat => `
+            <div class="results-category">
+                <h3>${cat.name}</h3>
+                ${cat.description ? `<p class="category-desc">${cat.description}</p>` : ''}
+                ${(cat.works && cat.works.length) ? cat.works.map(w => `
+                    <div class="result-card">
+                        <h4>${w.title || ''}</h4>
+                        <div class="result-meta">
+                            ${w.modality ? `<span>🏷️ ${w.modality}</span>` : ''}
+                        </div>
+                        ${w.authors ? `<div class="result-field"><strong>Autores</strong><p>${w.authors}</p></div>` : ''}
+                        ${w.advisor ? `<div class="result-field"><strong>Orientador</strong><p>${w.advisor}</p></div>` : ''}
+                        ${w.abstract ? `<div class="result-field"><strong>Resumo do Trabalho</strong><p>${w.abstract}</p></div>` : ''}
+                        ${w.aiDescription ? `<div class="result-field"><strong>Aplicação da Inteligência Artificial</strong><p>${w.aiDescription}</p></div>` : ''}
+                        ${w.schedule ? `<div class="result-schedule"><span>📅 ${w.schedule}</span></div>` : ''}
+                    </div>
+                `).join('') : '<p class="results-empty">Trabalhos em breve.</p>'}
+            </div>
+        `).join('');
     }
 
     renderCoordination(c) {
