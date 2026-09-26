@@ -1,7 +1,7 @@
 {
   "hero": {
     "title": "Reboot - IESB 2026",
-    "subtitle": "Impactos da IA nas nossas vidas",
+    "subtitle": "O impacto da IA nas nossas vidas",
     "date": "6 e 7 de Outubro de 2026",
     "location": "📍 IESB-SUL — Brasília, DF",
     "countdownTarget": "2026-10-06T09:00:00-03:00"
@@ -20,49 +20,63 @@
         "date": "06 de Outubro de 2026",
         "sessions": [
           {
-            "time": "8:00",
-            "title": "boas-vindas aos participantes"
+            "time": "8h às 8h30 - Credenciamento",
+            "title": "A participação é gratuita e dispensa inscrição prévia, estando limitada ao número de lugares disponíveis no auditório"
           },
           {
-            "time": "8:30",
+            "time": "8h30  às 9h",
             "title": "Boas-vindas ao 1º Reboot",
             "speaker": {
-              "name": "Prof. Luiz Claudio Costa <br> Reitor do IESB",
-              "photo": "img/coord/Luiz Claudio.png",
+              "name": "<strong>Prof. Luiz Claudio Costa</strong> <br> Reitor do IESB",
+              "photo": "img/coord/Luiz Claudio2.jpg",
               "lattes": "http://lattes.cnpq.br/7149664393873107",
               "linkedin": "https://www.linkedin.com/in/luizcostawej113/"
             }
           },
           {
-            "time": "9:00",
-            "title": "Palestra: Saúde e Tecnologia",
+            "time": "9h às 10h",
+            "title": "Palestra: Inteligência Ampliada: Um Novo Paradgima para a Educação Superior",
             "speaker": {
-              "name": "Prof. Celso Niskier",
+              "name": "<strong>Prof. Celso Niskier</strong>",
               "photo": "img/coord/CelsoNiskier.jpg",
+              "bio": "<p>Diretor-presidente da Associação Brasileira de Mantenedoras de Ensino Superior (ABMES), secretário executivo do Fórum das Entidades Representativas do Ensino Superior Particular e presidente da MetaRedX Brasil.</p><p> É vice-presidente do Sindicato das Entidades Mantenedoras de Estabelecimentos de Ensino Superior do Rio de Janeiro (Semerj) e doutor em Inteligência Artificial.</p><p> Fundador e reitor do Centro Universitário UniCarioca, é membro da Academia Brasileira de Educação, do Conselho do CIEE-Rio e do Conselho Curador da Fundação Padre Anchieta.</p><p> Foi Conselheiro Estadual de Educação do Rio de Janeiro por 12 anos, tendo presidido a Câmara de Educação Superior.</p>",
               "lattes": "http://lattes.cnpq.br/4310855137768864",
               "linkedin": "https://www.linkedin.com/in/celso-niskier/"
             }
           },
           {
-            "time": "<br>14:00",
-            "title": "Apresentação dos trabalhos selecionados <br>"
+            "time": "10h às 11h",
+            "title": "Inteligência Artificial e as Profissões do Futuro",
+            "speaker": {
+              "name": "<strong>Arnóbio Morelix</strong>",
+              "photo": "img/coord/ArnobioMorelix.jpg",
+              "bio": "<p>Cofundador e CEO da Sirius, a faculdade das profissões do futuro.</p><p>Autor bestseller do ‘Rebooted’.</p><p>Empreendedor – Vale do Silício.</p>",
+              "lattes": "",
+              "linkedin": "https://www.linkedin.com/in/arnobiomorelix/"
+            }
           },
           {
-            "time": "19:00",
+            "time": "<br>14h30 às 17h30",
+            "title": "<strong>Apresentação dos trabalhos (conforme programação a ser divulgada a partir do dia 29 de setembro)</strong> <br>"
+          },
+          {
+            "time": "19h às 21h",
             "title": "Gestão, Empreendedorismo e Inovação – Mesa Redonda <br> Gestão, Empreendedorismo e Inovação <br> O que acontece com a Gestão quando a Inteligência deixa de ser escassa?",
             "speaker": {
-              "name": "Prof. André Rehbein Sathler Guimarães ",
+              "name": "<strong>Prof. André Rehbein Sathler Guimarães</strong>",
               "photo": "img/coord/AndreRehbein.jpg",
+              "bio": "Pesquisador e docente de Pós-Graduação em Administração e Democracia (Poder Legislativo), Analista Legislativo na Câmara dos Deputados do Brasil e Coordenador do Mestrado em Gestão Estratégica de Organizações (MGEO) do IESB.",
               "lattes": "http://lattes.cnpq.br/9394532830433721",
               "linkedin": "https://www.linkedin.com/in/andresathler/"
             }
           },
           {
             "time": "",
-            "title": "Do prompt ao impacto: como a IA transformou o Ideias de Nogócios no Sebrae",
+            "title": "Do prompt ao impacto: como a IA transformou o Ideias de Negócios no Sebrae",
             "speaker": {
-              "name": "Luciana Macedo <br> SEBRAE Nacional",
+              "name": "<strong>Luciana Macedo <br> SEBRAE Nacional</strong>",
               "photo": "img/coord/LucianaMacedo.jpg",
+              "bio": "<p>Graduada em Biblioteconomia pela UnB e especialista em Gestão do Conhecimento.</p><p>Atua há 14 anos no Sebrae Nacional, liderando estratégias de conteúdo digital, SEO e experiência do cliente para o Portal e App.</p><p>Atualmente, desenvolve iniciativas relacionadas à aplicação de Inteligência Artificial para automatização, escala e personalização de conteúdos técnicos.</p>",
               "lattes": "",
               "linkedin": "https://www.linkedin.com/in/luciana-macedo-53b839145"
             }
@@ -71,8 +85,9 @@
             "time": "",
             "title": "Utilização de Inteligência Artificial em empresas e diferentes segmentos no Brasil",
             "speaker": {
-              "name": "Diego Henrique Figueiredo  <br> GlobalWEB <br> Diretor Executivo de Negócios",
+              "name": "<strong>Diego Henrique Figueiredo</strong><br> GlobalWEB <br> Diretor Executivo de Negócios",
               "photo": "img/coord/DiegoFigueiredo.jpg",
+              "bio": "<p>Executivo com visão corporativa de mercado sobre a utilização de Inteligência Artificial em empresas e diferentes segmentos no Brasil.</p>",    
               "lattes": "",
               "linkedin": "https://www.linkedin.com/in/diegofigueiredo/"
             }
@@ -88,39 +103,54 @@
         "date": "07 de Outubro de 2026",
         "sessions": [
           {
-            "time": "08:00",
-            "title": "boas-vindas aos participantes"
+            "time": "8h às 8h30 - Credenciamento",
+            "title": "A participação é gratuita e dispensa inscrição prévia, estando limitada ao número de lugares disponíveis no auditório"
+  
           },
           {
-            "time": "8:30",
+           "time": "8h30 às 9h",
             "title": "Boas-vindas ao 1º Reboot",
             "speaker": {
-              "name": "Profa. Roberta Carolina Lima Gontijos de Lacerda <br> Pró-Reitora de Graduação",
-              "photo": "img/coord/Roberta Gontijo.png",
-              "lattes": "http://lattes.cnpq.br/7346634516941175",
-              "linkedin": "https://www.linkedin.com/in/roberta-gontijo-phd-4110213a/"
+              "name": "<strong>Prof. Luiz Claudio Costa</strong><br>Reitor do IESB",
+              "photo": "img/coord/Luiz Claudio2.jpg",
+              "bio": "",
+              "lattes": "http://lattes.cnpq.br/7149664393873107",
+              "linkedin": "https://www.linkedin.com/in/luizcostawej113/"
             }
           },
           {
-            "time": "9:00",
+            "time": "9h às 10h",
             "title": "Inteligência Artificial no Judiciário: Uso Ético, Riscos e Desafios para o Futuro",
             "speaker": {
-              "name": "Pedro Matos de Arruda",
+              "name": "<strong>Pedro Matos de Arruda</strong> <br> Juiz de Direito Substituto do TJDFT e Coordenador do Centro de Inteligência da Justiça do Distrito Federal – CIJDF",
               "photo": "img/coord/PedroArruda.jpg",
+              "bio": "<p>Membro da Comissão de Inteligência Artificial do TJDFT e instrutor das Oficinas de Uso da IA para o 1º Grau.</p><p>Possui experiência na aplicação de Inteligência Artificial como ferramenta de apoio à atividade jurisdicional e no desenvolvimento de soluções de automação de rotinas no Poder Judiciário.</p>",
               "lattes": "http://lattes.cnpq.br/3659656961051509",
               "linkedin": ""
             }
           },
           {
-            "time": "<br>14:00",
-            "title": "Apresentação dos trabalhos selecionados<br>"
+            "time": "10h às 11h",
+            "title": "Os desafios do alinhamento da Inteligência Artificial (AI Alignment)",
+            "speaker": {
+              "name": "<strong>Prof. Luiz Claudio Costa</strong> <br> Reitor do IESB",
+              "photo": "img/coord/Luiz Claudio2.jpg",
+              "bio": "<p>Ex-Reitor da UFV. Ao longo de sua trajetória, ocupou posições estratégicas no Brasil e no cenário internacional.</p><p> Ex-Secretário de Educação Superior e Secretário Executivo e Ministro Interino (MEC). Ex-Presidente do INEP.</p><p>É PhD pela University of Reading (Reino Unido). </p><p>Considerado uma das principais vozes sobre o impacto da IA na educação, nas instituições e na sociedade . </p><p>Palestrante nacional e internacional.</p><p>Professor titular aposentado da Universidade Federal de Viçosa, com atuação acadêmica, científica e institucional ao longo de mais de três décadas.</p><p> Atualmente é Reitor do IESB, com foco na integração da Inteligência Artificial à educação superior, gestão institucional e inovação acadêmica.</p><p> Autor dos livros O Impacto da Inteligência Artificial na Humanidade, Editora Appris(2025) e Inteligência artificial: Funcionamento e desafios à ética, às crenças e à existência humana, Editora Vozes (2026)</p>",
+               "lattes": "http://lattes.cnpq.br/7149664393873107",
+              "linkedin": "https://www.linkedin.com/in/luizcostawej113/"
+            }
           },
           {
-            "time": "19:00",
+            "time": "<br>14h30 às 17h30",
+            "title": "<strong>Apresentação dos trabalhos (conforme programação a ser divulgada a partir do dia 29 de setembro)</strong> <br>"
+          },
+          {
+            "time": "19h às 21h",
             "title": "IA e suas Tecnologias Disruptivas – Mesa Redonda <br> A IA responde. Quem decide? <br> Inteligência Artificial, pensamento crítico e responsabilidade humana no futuro do trabalho.",
             "speaker": {
-              "name": "Edmon da Silva",
+              "name": "<strong>Edmon da Silva</strong>",
               "photo": "img/coord/EdmonSilva.jpg",
+              "bio": "<p>Lidera uma das maiores estruturas de design do país, com mais de 350 designers.</p><p>Atua também como professor em pós-graduação de Liderança em UX e pesquisa a interseção entre Design e Inteligência Artificial, tanto na aplicação prática da IA em processos de criação e decisão quanto na reflexão sobre o papel do designer nesse novo cenário.</p>",
               "lattes": "",
               "linkedin": "https://www.linkedin.com/in/edmonsilva/"
             }
@@ -129,10 +159,22 @@
             "time": "",
             "title": "IA além do hype: aplicações em empresas e Governos",
             "speaker": {
-              "name": "Adriel Volzzi Sales",
+              "name": "<strong>Adriel Volzzi Sales</strong>",
               "photo": "img/coord/AdrielSales.jpg",
+              "bio": "<p> Customer Advisor na multinacional SAS, uma das maiores empresas de Inteligência Artificial nos E.U.A, apoiando contas de Governo na América Latina com analytics e inteligência artificial aplicado à gestão pública.</p><p>Especialista em Modelagem Preditiva, séries temporais e machine learning aplicados a problemas de gestão pública, em SAS, Python ou R.</p><p>Formado em Ciência de Dados e Inteligência pelo IESB.</p><p>Movido por criar e inovar utilizando Inteligência Artificial.</p>",
               "lattes": "https://lattes.cnpq.br/7907184756958693",
               "linkedin": "https://www.linkedin.com/in/adrielvolzzi/"
+            }
+          },
+           {
+            "time": "",
+            "title": "Reinvente-se ou Desapareça: inovação e criatividade como ferramentas para impulsionar carreiras e negócios.",
+            "speaker": {
+              "name": "<strong>Fábio André Lopes</strong>",
+              "photo": "img/coord/FabioAndreLopes.jpg",
+              "bio": "<p>Fábio André Lopes é administrador, especialista em Planejamento e Gestão Empresarial, com mais de 20 anos de experiência em comunicação, marketing, eventos e ensino superior. .</p><p>É Diretor Geral e Produtor Master da REALIZZE Produção de Eventos, dirige a EIXO Comunicação, Marketing e Publicidade e atua como Embaixador e Legend Partner da WIX, realizando treinamentos e palestras sobre tecnologia.</p><p> No meio acadêmico, foi professor do IESB por mais de oito anos, atuando nos cursos de Publicidade, Cinema, Fotografia e Produção Multimídia.</p><p>Possui ampla experiência em assessoria empresarial, planejamento estratégico, marketing e gestão de equipes.</p><p>Desde 2020, atua também no ecossistema de startups e, em 2022, fundou a UniEmpreendedor, iniciativa voltada ao desenvolvimento de empreendedores, com projeto recentemente aprovado pela FAP-DF.</p>",
+              "lattes": "",
+              "linkedin": "https://www.linkedin.com/in/f%C3%A1bio-andr%C3%A9-lopes-5b576b57/"
             }
           },
           {
@@ -175,7 +217,7 @@
   "registration": {
     "title": "Submissão de Trabalho",
     "description": "Edital nº 04/2026 — Chamada para submissão, seleção e apresentação de trabalhos acadêmicos, científicos, tecnológicos e de inovação no REBOOT.",
-    "body": "<div class=\"edital-meta\"><span>📅 Evento: 6 e 7 de outubro de 2026</span><span>📍 Unidade Edson Machado — Campus Sul, IESB</span><span>⏰ Inscrições até 21/09/2026, 23h59</span><span>🆓 Inscrições gratuitas</span></div><p>A Reitoria do Centro Universitário IESB, por meio da Comissão Organizadora do <strong>REBOOT — O Impacto da IA nas Nossas Vidas</strong>, torna pública a abertura das inscrições para submissão de trabalhos acadêmicos, científicos, tecnológicos e de inovação para apresentação no evento.</p><h3>Tema</h3><p>“Inteligência Artificial e sua aplicabilidade nas diversas áreas de atuação profissional.” São aceitos: pesquisas científicas, estudos de caso, relatos de experiência, projetos acadêmicos, produtos e protótipos, soluções tecnológicas, aplicações profissionais, projetos de inovação e iniciativas de impacto social relacionadas à IA.</p><h3>Quem pode participar</h3><ul><li>Estudantes de graduação do IESB;</li><li>Estudantes de pós-graduação (lato sensu ou stricto sensu) do IESB;</li><li>Docentes do IESB;</li><li>Integrantes do corpo técnico-administrativo do IESB.</li></ul><p>A participação pode ser individual ou em equipe (até 5 autores por trabalho, incluindo o orientador). Cada participante pode integrar até 2 trabalhos.</p><h3>Modalidades de apresentação</h3><ul><li><strong>Vitrine de Inovação em IA</strong> — até 5 trabalhos (espaço exclusivo, computador e monitor/TV);</li><li><strong>Demonstração Tecnológica</strong> — até 10 trabalhos (espaço e computador);</li><li><strong>Mostra de Banners Científicos</strong> — até 25 trabalhos (banner 90×120 cm, orientação vertical).</li></ul><p>Serão selecionados até 40 trabalhos no total. A Comissão Científica poderá remanejar vagas entre as modalidades.</p><h3>Como se inscrever</h3><p>As inscrições são gratuitas e vão até <strong>21 de setembro de 2026, às 23h59</strong> (horário de Brasília), exclusivamente pelo formulário eletrônico. No ato da inscrição informe: título, modalidade pretendida, autores e vínculo com o IESB, orientador (quando houver), resumo de até 500 palavras, descrição da aplicação de IA e resultados obtidos ou esperados.</p><h3>Cronograma</h3><ul><li>Publicação do edital: 03/09/2026;</li><li>Submissão dos trabalhos: até 21/09/2026;</li><li>Avaliação pela Comissão Científica: 22/09 a 25/09/2026;</li><li>Divulgação dos resultados: 26/09/2026;</li><li>Realização do REBOOT: 06 e 07/10/2026.</li></ul><p>O resultado será divulgado no site oficial do REBOOT e nos canais oficiais do IESB. Consulte o edital completo para todas as regras, critérios de avaliação, certificação e disposições finais.</p>",
+    "body": "<div class=\"edital-meta\"><span>📅 Evento: 6 e 7 de outubro de 2026</span><span>📍 Unidade Edson Machado — Campus Sul, IESB</span><span>⏰ Inscrições até 25/09/2026, 23h59</span><span>🆓 Inscrições gratuitas</span></div><p>A Reitoria do Centro Universitário IESB, por meio da Comissão Organizadora do <strong>REBOOT — O Impacto da IA nas Nossas Vidas</strong>, torna pública a abertura das inscrições para submissão de trabalhos acadêmicos, científicos, tecnológicos e de inovação para apresentação no evento.</p><h3>Tema</h3><p>“Inteligência Artificial e sua aplicabilidade nas diversas áreas de atuação profissional.” São aceitos: pesquisas científicas, estudos de caso, relatos de experiência, projetos acadêmicos, produtos e protótipos, soluções tecnológicas, aplicações profissionais, projetos de inovação e iniciativas de impacto social relacionadas à IA.</p><h3>Quem pode participar</h3><ul><li>Estudantes de graduação do IESB;</li><li>Estudantes de pós-graduação (lato sensu ou stricto sensu) do IESB;</li><li>Docentes do IESB;</li><li>Integrantes do corpo técnico-administrativo do IESB.</li></ul><p>A participação pode ser individual ou em equipe (até 5 autores por trabalho, incluindo o orientador). Cada participante pode integrar até 2 trabalhos.</p><h3>Modalidades de apresentação</h3><ul><li><strong>Vitrine de Inovação em IA</strong> — até 5 trabalhos (espaço exclusivo, computador e monitor/TV);</li><li><strong>Demonstração Tecnológica</strong> — até 10 trabalhos (espaço e computador);</li><li><strong>Mostra de Banners Científicos</strong> — até 25 trabalhos (banner 90×120 cm, orientação vertical).</li></ul><p>Serão selecionados até 40 trabalhos no total. A Comissão Científica poderá remanejar vagas entre as modalidades.</p><h3>Como se inscrever</h3><p>As inscrições são gratuitas e vão até <strong>25 de setembro de 2026, às 23h59</strong> (horário de Brasília), exclusivamente pelo formulário eletrônico. No ato da inscrição informe: título, modalidade pretendida, autores e vínculo com o IESB, orientador (quando houver), resumo de até 500 palavras, descrição da aplicação de IA e resultados obtidos ou esperados.</p><h3>Cronograma</h3><ul><li>Publicação do edital: 14/09/2026;</li><li>Submissão dos trabalhos: até 25/09/2026;</li><li>Avaliação pela Comissão Científica: 28/09 a 30/09/2026;</li><li>Divulgação dos resultados: 01/10/2026;</li><li>Realização do REBOOT: 06 e 07/10/2026.</li></ul><p>O resultado será divulgado no site oficial do REBOOT e nos canais oficiais do IESB. Consulte o edital completo para todas as regras, critérios de avaliação, certificação e disposições finais.</p>",
     "editalText": "Acessar o edital completo",
     "editalUrl": "docs/edital-04-2026-reboot.pdf",
     "buttonText": "Inscreva-se",
@@ -203,21 +245,21 @@
     ]
   },
   "coordination": {
-    "title": "Coordenação",
+    "title": "Comissão de IA do IESB",
     "sections": [
       {
-        "label": "Coordenação Geral",
+        "label": "",
         "members": [
           {
             "name": "Prof. Luiz Claudio Costa",
             "role": "Reitor do IESB",
-            "photo": "img/coord/Luiz Claudio.png",
+            "photo": "img/coord/Luiz Claudio2.jpg",
             "lattes": "http://lattes.cnpq.br/7149664393873107",
             "linkedin": "https://www.linkedin.com/in/luizcostawej113/"
           },
           {
-            "name": "Profa. Roberta Carolina Lima Gontijos de Lacerda",
-            "role": "Pró-Reitora de Graduação",
+            "name": "Profa. Roberta Carolina Lima Gontijo de Lacerda",
+            "role": "Pró-Reitora de Graduação e Extensão do IESB",
             "photo": "img/coord/Roberta Gontijo.png",
             "lattes": "http://lattes.cnpq.br/7346634516941175",
             "linkedin": "https://www.linkedin.com/in/roberta-gontijo-phd-4110213a/"
@@ -225,46 +267,60 @@
         ]
       },
       {
-        "label": "Coordenação Acadêmica",
+        "label": "",
         "members": [
+          {         
+            "name": "Prof. André Rehbein Sathler Guimarães ",
+            "role": "Coordenador do Mestrado em Gestão Estratégica de Organizações - MGEO",
+              "photo": "img/coord/AndreRehbein.jpg",
+              "lattes": "http://lattes.cnpq.br/9394532830433721",
+              "linkedin": "https://www.linkedin.com/in/andresathler/"
+           },     
           {
-            "name": "Prof. Sérgio da Costa Côrtes",
-            "role": "Coordenador Geral",
-            "photo": "img/coord/sergio.jpeg",
-            "lattes": "http://lattes.cnpq.br/1206696860799261",
-            "linkedin": "https://www.linkedin.com/in/s%C3%A9rgio-da-costa-c%C3%B4rtes-01032951/"
-          },
-          {
-            "name": "Profa. Patrícia Moscariello Rodrigues",
-            "role": "Coordenadora Geral",
+           "name": "Profa. Patrícia Moscariello Rodrigues",
+            "role": "Coordenadora de Cursos de Graduação",
             "photo": "img/coord/PatriciaMoscariello.png",
             "lattes": "",
             "linkedin": "https://www.linkedin.com/in/patricia-moscariello-abab8311a/"
           },
           {
-            "name": "Prof. Francisco Marcelo Marques Lima",
-            "role": "Coordenador Geral",
+            "name": "Prof. Sérgio da Costa Côrtes",
+            "role": "Coordenador de Cursos de Graduação",
+            "photo": "img/coord/sergio.jpeg",
+            "lattes": "http://lattes.cnpq.br/1206696860799261",
+            "linkedin": "https://www.linkedin.com/in/s%C3%A9rgio-da-costa-c%C3%B4rtes-01032951/"
+          },
+         {
+           "name": "Prof. Francisco Marcelo Marques Lima",
+            "role": "Coordenador de Cursos de Graduação",
             "photo": "img/coord/FranciscoMarcelo.png",
             "lattes": "",
-            "linkedin": "https://www.linkedin.com/in/marques-marcelo/"
+            "linkedin": "https://www.linkedin.com/in/marques-marcelo/" 
+           },
+          {
+            "name": "Prof. Pablo Coelho Ferreira",
+            "role": "Professor do IESB e Coordenador do Centro de Robótica e Inteligência Artificial (CRIA) do IESB",
+            "photo": "img/coord/PabloCoelho.jpg",
+            "lattes": "http://lattes.cnpq.br/0909431641369485",
+            "linkedin": "https://www.linkedin.com/in/pablocoelho/" 
           }
         ]
       },
       {
-        "label": "Palestrantes",
+        "label": "",
         "members": [
           {
-            "name": "Em breve",
-            "role": "Palestrante confirmado",
-            "photo": "img/coord/person.png",
-            "lattes": "#",
-            "linkedin": "#"
+            "name": "",
+            "role": "",
+            "photo": "img/reboot-logo.png",
+            "lattes": "",
+            "linkedin": ""
           }
         ]
       }
     ]
   },
   "footer": {
-    "text": "© 2026 Reboot - IESB. Todos os direitos reservados.<br>Desenvolvido por <a href=\"https://www.levav.it\" target=\"_blank\" rel=\"noopener\" style=\"color:var(--accent);text-decoration:none\">Levav-IT</a>"
+    "text": "© 2026 Reboot - IESB. Todos os direitos reservados.<br>Desenvolvido por <a href=\"https://www.levav.it\" target=\"_blank\" rel=\"noopener\" style=\"color:var(--accent);text-decoration:none\">Levav-IT</a> (alunos do IESB)"
   }
 }
