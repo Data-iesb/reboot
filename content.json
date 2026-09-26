@@ -201,6 +201,12 @@
         "url": "https://aws.amazon.com"
       },
       {
+        "name": "Darede",
+        "logo": "img/parceiros/Darede.jpg",
+        "description": "Parceira Premier AWS e do IESB no projeto Big Data-IESB.",
+        "url": "https://darede.com.br"
+      },
+      {
         "name": "SAS",
         "logo": "logo/logo_sas.webp",
         "description": "Líder global em soluções de analytics, fornecendo plataforma tecnológica de ponta.",
