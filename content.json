@@ -203,6 +203,8 @@
       {
         "name": "Darede",
         "logo": "img/parceiros/Darede.jpg",
+
+        
         "description": "Parceira Premier AWS e do IESB no projeto Big Data-IESB.",
         "url": "https://darede.com.br"
       },
@@ -241,7 +243,13 @@
       {
         "name": "Demonstração Tecnológica",
         "description": "Trabalhos selecionados para apresentação com espaço e computador.",
+        "works": [
+      {
+        "name": "Vitrine de Inovação em IA",
+        "description": "Trabalhos selecionados para apresentação em espaço exclusivo, com computador e monitor/TV.",
         "works": []
+       }
+        ]
       },
       {
         "name": "Mostra de Banners Científicos",
