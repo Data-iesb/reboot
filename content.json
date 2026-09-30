@@ -87,7 +87,7 @@
             "speaker": {
               "name": "<strong>Diego Henrique Figueiredo</strong><br> GlobalWEB <br> Diretor Executivo de Negócios",
               "photo": "img/coord/DiegoFigueiredo.jpg",
-              "bio": "<p>Executivo com visão corporativa de mercado sobre a utilização de Inteligência Artificial em empresas e diferentes segmentos no Brasil.</p>",    
+              "bio": "<p>Executivo com visão corporativa de mercado sobre a utilização de Inteligência Artificial em empresas e diferentes segmentos no Brasil.</p>",
               "lattes": "",
               "linkedin": "https://www.linkedin.com/in/diegofigueiredo/"
             }
@@ -105,10 +105,9 @@
           {
             "time": "8h às 8h30 - Credenciamento",
             "title": "A participação é gratuita e dispensa inscrição prévia, estando limitada ao número de lugares disponíveis no auditório"
-  
           },
           {
-           "time": "8h30 às 9h",
+            "time": "8h30 às 9h",
             "title": "Boas-vindas ao 1º Reboot",
             "speaker": {
               "name": "<strong>Prof. Luiz Claudio Costa</strong><br>Reitor do IESB",
@@ -136,7 +135,7 @@
               "name": "<strong>Prof. Luiz Claudio Costa</strong> <br> Reitor do IESB",
               "photo": "img/coord/Luiz Claudio2.jpg",
               "bio": "<p>Ex-Reitor da UFV. Ao longo de sua trajetória, ocupou posições estratégicas no Brasil e no cenário internacional.</p><p> Ex-Secretário de Educação Superior e Secretário Executivo e Ministro Interino (MEC). Ex-Presidente do INEP.</p><p>É PhD pela University of Reading (Reino Unido). </p><p>Considerado uma das principais vozes sobre o impacto da IA na educação, nas instituições e na sociedade . </p><p>Palestrante nacional e internacional.</p><p>Professor titular aposentado da Universidade Federal de Viçosa, com atuação acadêmica, científica e institucional ao longo de mais de três décadas.</p><p> Atualmente é Reitor do IESB, com foco na integração da Inteligência Artificial à educação superior, gestão institucional e inovação acadêmica.</p><p> Autor dos livros O Impacto da Inteligência Artificial na Humanidade, Editora Appris(2025) e Inteligência artificial: Funcionamento e desafios à ética, às crenças e à existência humana, Editora Vozes (2026)</p>",
-               "lattes": "http://lattes.cnpq.br/7149664393873107",
+              "lattes": "http://lattes.cnpq.br/7149664393873107",
               "linkedin": "https://www.linkedin.com/in/luizcostawej113/"
             }
           },
@@ -166,7 +165,7 @@
               "linkedin": "https://www.linkedin.com/in/adrielvolzzi/"
             }
           },
-           {
+          {
             "time": "",
             "title": "Reinvente-se ou Desapareça: inovação e criatividade como ferramentas para impulsionar carreiras e negócios.",
             "speaker": {
@@ -203,8 +202,6 @@
       {
         "name": "Darede",
         "logo": "img/parceiros/Darede.jpg",
-
-        
         "description": "Parceira Premier AWS e do IESB no projeto Big Data-IESB.",
         "url": "https://darede.com.br"
       },
@@ -238,23 +235,233 @@
       {
         "name": "Vitrine de Inovação em IA",
         "description": "Trabalhos selecionados para apresentação em espaço exclusivo, com computador e monitor/TV.",
-        "works": []
+        "works": [
+          {
+            "title": "Previna patrimônio IA",
+            "modality": "Vitrine de Inovação em IA",
+            "authors": "Adriana Cláudia Morais",
+            "abstract": "O Previna Patrimônio IA é um projeto de P&D (IESB) em Direito e IA que democratiza a proteção patrimonial familiar. Utiliza arquitetura híbrida com Motor Determinístico e RAG Federado para simular impactos do ITCMD e Reforma Tributária sem alucinações. Opera via Sandbox Acadêmico (OAB) no B2C e SaaS (BYOK) para advogados no B2B, gerando eficiência e governança preventiva.",
+            "aiDescription": "A IA no Previna Patrimônio IA funciona como um elo entre o cidadão e a advocacia preventiva, automatizando a complexidade técnica e tributária para democratizar o acesso ao planejamento patrimonial.",
+            "schedule": "06/10 — 14h15 às 16h30"
+          },
+          {
+            "title": "MeuAdvogado Tech",
+            "modality": "Vitrine de Inovação em IA",
+            "authors": "Gabriel Henrique K. Paz",
+            "abstract": "O MeuAdvogado é uma plataforma de IA que lê processos jurídicos extensos, inclusive escaneados, e entrega resumo do caso, minuta em Word e análise crítica de peças. Foco inicial: direito previdenciário, em que um processo pode ter milhares de páginas. O OCR roda no navegador e os dados pessoais são anonimizados antes de qualquer envio. O produto está em produção, em beta com advogados. Num processo real de 186 páginas escaneadas, o OCR local resolveu até 43% das páginas sem custo.",
+            "aiDescription": "A IA atua em três etapas. Visão computacional: OCR por rede neural em WebAssembly no navegador, com escore de confiança por página que decide o que fica local e o que recebe segunda passada com tratamento de imagem. Privacidade: anonimização de CPF, RG, nomes, endereços e benefícios antes do envio. Linguagem: modelos de linguagem geram resumo, minuta e crítica citando artigo e fonte, sem inventar dados, no tom do perfil do usuário.",
+            "schedule": "07/10 — 14h15 às 16h30"
+          }
+        ]
       },
       {
         "name": "Demonstração Tecnológica",
         "description": "Trabalhos selecionados para apresentação com espaço e computador.",
         "works": [
-      {
-        "name": "Vitrine de Inovação em IA",
-        "description": "Trabalhos selecionados para apresentação em espaço exclusivo, com computador e monitor/TV.",
-        "works": []
-       }
+          {
+            "title": "Desenvolvimento de Competências no Uso de IA Generativa pelos Servidores do TST",
+            "modality": "Demonstração Tecnológica",
+            "authors": "Adriana M. da S. Vieira",
+            "advisor": "Sérgio da C. Cortês",
+            "abstract": "Investiga as competências para o uso de IA Generativa por servidores do TST sob a ótica da supervisão crítica humana. Realizou-se pesquisa quantitativa (survey) com 325 servidores. Os resultados revelam a competência técnica como gargalo operacional (média 2,87), em contraste com escores éticos elevados (4,62), configurando o paradoxo da conformidade invisível. Foram identificados três perfis de maturidade digital, propondo-se trilhas de aprendizagem personalizadas no framework 70:20:10.",
+            "aiDescription": "A IA Generativa é abordada no trabalho sob a perspectiva do desenvolvimento de competências individuais dos servidores para seu uso prático, ético e responsável. O estudo investiga a interação dos profissionais com essas ferramentas (como ChatGPT, Gemini e Chat-JT) na rotina jurídica (síntese e redação). A relação com a área profissional dá-se pela exigência de letramento e supervisão crítica humana, atuando como salvaguarda epistêmica contra vieses e alucinações.",
+            "schedule": "06/10 — 14h15 às 16h30"
+          },
+          {
+            "title": "Integração de Dados da Saúde - IA para planejamento e gestão",
+            "modality": "Demonstração Tecnológica",
+            "authors": "Arthur S. de Melo Rosa",
+            "advisor": "Sérgio da C. Cortês",
+            "abstract": "A integração de dados na área da saúde é fundamental para melhorar o planejamento e a gestão dos serviços públicos. Por isso, foram realizadas análises de dados oficiais do SUS (Sistema Único de Saúde), buscando organizar e relacionar diferentes informações para facilitar a identificação de padrões e apoiar a tomada de decisões na área da saúde.",
+            "aiDescription": "Com o avanço da Inteligência Artificial (IA), grandes volumes de dados podem ser analisados de forma mais rápida e eficiente. No trabalho, a IA é abordada como uma ferramenta de apoio à análise dos dados de saúde, podendo auxiliar na identificação de padrões, previsão de demandas e geração de informações para o planejamento e a gestão dos serviços públicos.",
+            "schedule": "06/10 — 14h15 às 16h30"
+          },
+          {
+            "title": "BeeIA: Análise de Ameaças em Sistemas Ciber-Físicos usando Honeypots e IA.",
+            "modality": "Demonstração Tecnológica",
+            "authors": "Caio S. G. Souza e Mayron M. Oliveira",
+            "advisor": "Pablo C. Ferreira",
+            "abstract": "Este trabalho integra conceitos de infraestrutura, redes e inteligência artificial para oferecer uma resposta mais qualificada, controlada e ágil contra ataques de segurança.",
+            "aiDescription": "A inteligência artificial é aplicada em duas frentes: modelos de Machine Learning, treinados e validados para categorizar os ataques detectados de acordo com o nível de criticidade e o tipo de exploração; e um LLM (Large Language Model), utilizado para apoiar a tomada de decisão do profissional responsável pela resposta ao incidente.",
+            "schedule": "06/10 — 14h15 às 16h30"
+          },
+          {
+            "title": "Infraestrutura de Dados Georeferenciados para aplicações de IA - Base demográfica 2022",
+            "modality": "Demonstração Tecnológica",
+            "authors": "Erick Lopes Jost.",
+            "advisor": "Sérgio da C. Côrtes",
+            "abstract": "Painel \"Setores Censitários 2022\", em produção no portal DataIESB, disponibiliza indicadores territoriais do Censo Demográfico 2022 por setor censitário do IBGE, aplicação inédita no cenário brasileiro por reunir essa base geográfica de forma pública e navegável. Permite consultar população, domicílios e outros dados por UF, município e distrito, com mapa interativo. Faz parte do Projeto Big Data IESB, em parceria com a FUNASA, e já está disponível para uso da sociedade.",
+            "aiDescription": "O portal DataIESB conta com a Athena, assistente de IA integrada, que permite consultas em linguagem natural sobre as bases publicadas, incluindo os Setores Censitários 2022. Assim, um gestor ou pesquisador pode perguntar diretamente sobre indicadores de um setor, município ou UF, sem precisar operar filtros manuais. Isso aproxima a análise geoespacial (GIS) do IBGE de usuários não técnicos, ampliando o alcance da ferramenta na área de gestão pública e políticas territoriais. Vale ressaltar que todas as políticas públicas que afetam principalmente as camadas mais pobres da população precisam ser estudadas em nível de setor censitário, para que não haja assimetrias na aplicação da política. Assim, as aplicações de IA com base nesta base geográfica trarão inúmeras possibilidades de estudos em prol da sociedade brasileira. Isso já é efetivado nas políticas públicas de saneamento e saúde ambiental da FUNASA.",
+            "schedule": "06/10 — 14h15 às 16h30"
+          },
+          {
+            "title": "Portal de Aplicações de Ciência de Dados e Inteligência Artificial (Big Data - IESB)",
+            "modality": "Demonstração Tecnológica",
+            "authors": "Joel Carolino Farias",
+            "advisor": "Sérgio da C. Côrtes",
+            "abstract": "O Portal de Aplicações de Ciência de Dados e Inteligência Artificial do Big Data IESB reúne painéis interativos, assistentes de IA e conteúdos em um ambiente digital. O trabalho envolve organização da navegação, integração de aplicações, melhorias visuais e testes de funcionamento. A proposta facilita o acesso a dados públicos e ferramentas de análise, aproximando conhecimentos acadêmicos de aplicações práticas e apoiando a consulta de indicadores e informações.",
+            "aiDescription": "A inteligência artificial é abordada pela integração de assistentes ao portal, oferecendo interação em linguagem natural para consultar conteúdos e obter orientações. O portal reúne esses recursos e aplicações de ciência de dados, facilitando seu acesso. A relação com a área profissional está na disponibilização de ferramentas que apoiam a exploração de informações e conectam o desenvolvimento de sistemas à análise de dados.",
+            "schedule": "06/10 — 14h15 às 16h30"
+          },
+          {
+            "title": "datalock Studio: uma interface no-code para anonimização de dados pessoais conforme a LGPD",
+            "modality": "Demonstração Tecnológica",
+            "authors": "Leonardo B. S. Braga",
+            "advisor": "Sérgio da C. Côrtes",
+            "abstract": "O trabalho apresenta o datalock Studio (https://datalock-studio.tech), uma interface no-code para limpeza, transformação e anonimização de dados pessoais conforme a LGPD. A ferramenta utiliza a biblioteca Python datalock (também de autoria própria) e oferece versão web e software local, incluindo criptografia, conexão com bancos de dados e automações. O objetivo é permitir o tratamento seguro de dados sensíveis sem programação ou envio a terceiros.",
+            "aiDescription": "A IA está presente na biblioteca datalock por meio da geração de dados sintéticos, que utiliza uma rede adversarial generativa condicional para dados tabulares (CTGAN). O modelo é treinado sobre a distribuição estatística de uma tabela real e, a partir dela, gera novas linhas artificiais que preservam relações entre colunas, como correlações e distribuições marginais, sem corresponder a nenhum indivíduo real. Trata-se de uma alternativa de anonimização para os casos em que mesmo o hash ou a criptografia ainda deixam um vínculo, ainda que oculto, com os registros originais. No datalock Studio, essa capacidade é exposta como um passo de receita, \"gerar dados sintéticos\", com parâmetros como número de linhas e épocas de treinamento, podendo ser combinada com o mascaramento das colunas resultantes. A relação com a área profissional é direta: equipes de dados frequentemente precisam de bases realistas para testes, desenvolvimento e homologação sem expor dados de produção, e a geração sintética via IA generativa é hoje uma das abordagens mais discutidas em privacidade de dados, como alternativa complementar à anonimização determinística tradicional baseada em hash, supressão e generalização.",
+            "schedule": "06/10 — 14h15 às 16h30"
+          },
+          {
+            "title": "Athenas Educacional - Professor",
+            "modality": "Demonstração Tecnológica",
+            "authors": "Marco Antônio V. da Cunha",
+            "advisor": "Sérgio da C. Côrtes",
+            "abstract": "A Athena Educacional é uma assistente de IA que apoia professores na preparação de aulas. Ancorada nos materiais oficiais da disciplina, ela cria listas de exercícios com dificuldade gradual, exemplo resolvido passo a passo e gabarito comentado, ajudando alunos com mais dificuldade. Foi validada com as apostilas de IA do IESB e está publicada no portal do DATA IESB.",
+            "aiDescription": "A inteligência artificial é o próprio coração do trabalho: a Athena Educacional é uma assistente conversacional que usa modelos de linguagem modernos combinados com uma busca prévia nos materiais oficiais da disciplina, técnica conhecida como RAG. Na prática, o professor informa o tema e a IA recupera os trechos relevantes das apostilas e gera, com base neles, listas de exercícios de dificuldade gradual, com exemplo resolvido passo a passo e gabarito comentado. Ela sempre cita a fonte e não inventa conteúdo, o que mantém a fidelidade ao material da disciplina. A relação com a área profissional é direta: o trabalho aplica ciência de dados e inteligência artificial à educação, aproximando o conteúdo acadêmico do dia a dia de professores e alunos e apoiando a personalização do ensino para quem tem mais dificuldade. A IA entra como ferramenta de apoio, não substitui o professor, e a arquitetura pode ser replicada em outras disciplinas bastando indexar novos materiais.",
+            "schedule": "06/10 — 14h15 às 16h30"
+          },
+          {
+            "title": "Athenas SUS",
+            "modality": "Demonstração Tecnológica",
+            "authors": "Mateus de L. Costa e Pedro Henrique de O. Marques",
+            "advisor": "Sérgio da C. Côrtes",
+            "abstract": "A Athena SUS é uma assistente de Inteligência Artificial para consulta de dados hospitalares do SUS. A aplicação permitirá realizar perguntas por texto ou áudio sobre internações, procedimentos, gastos e indicadores de saúde, retornando respostas de forma textual e sonora. A solução facilitará o acesso aos dados públicos e servirá de apoio a análises, pesquisas, planejamento e tomada de decisão.",
+            "aiDescription": "A Athena SUS será uma assistente de Inteligência Artificial voltada à consulta e interpretação de dados hospitalares do Sistema Único de Saúde (SUS). A aplicação permitirá que o usuário realize perguntas em linguagem natural sobre informações relacionadas a procedimentos, internações, gastos hospitalares e grupos de atendimento cirúrgico, clínico e de transplantes, considerando também diferentes municípios e períodos de análise. A Inteligência Artificial será utilizada para interpretar as perguntas realizadas pelos usuários, identificar a intenção da consulta, relacioná-la aos dados disponíveis e apresentar as informações de forma clara e acessível. A interação ocorrerá por meio de texto e áudio, permitindo que o usuário faça perguntas de maneira simples e receba as respostas também em formatos textual e sonoro. A Athena SUS servirá como uma interface inteligente entre o usuário e grandes volumes de dados públicos de saúde. Dessa forma, pessoas que não possuem conhecimento em programação, banco de dados ou linguagem SQL conseguirão consultar informações utilizando perguntas em linguagem cotidiana. Na área profissional de Ciência de Dados e Inteligência Artificial, a solução integrará processamento de linguagem natural, IA generativa, bancos de dados e tecnologias de voz. Essa integração permitirá transformar consultas técnicas em uma experiência mais intuitiva, facilitando o acesso e a interpretação de informações relevantes sobre a assistência hospitalar no Brasil. A aplicação também servirá como instrumento de apoio para pesquisadores, estudantes, profissionais da saúde e gestores públicos, que poderão utilizar a IA para explorar dados do SUS, comparar localidades, acompanhar indicadores ao longo do tempo e identificar comportamentos relevantes presentes nas bases de saúde.",
+            "schedule": "07/10 — 14h15 às 16h30"
+          },
+          {
+            "title": "Integração de Dados da Saúde - IA para planejamento e gestão",
+            "modality": "Demonstração Tecnológica",
+            "authors": "Pedro Henrique de O. Marques e Mateus de L. Costa",
+            "advisor": "Sérgio da C. Côrtes",
+            "abstract": "O trabalho apresenta os painéis \"Internações Hospitalares (AIH)\" e \"Produção Ambulatorial\" do Projeto Big Data IESB (parceria IESB/FUNASA), no portal DataIESB, com dados públicos do DATASUS (2019-2026) para os 5.571 municípios brasileiros. Reúnem indicadores de internações e procedimentos ambulatoriais do SUS, com visões geográfica, temporal, por procedimento e municipal, filtros e exportação em CSV/Excel. O site está implantado e em produção, com dados abertos à sociedade.",
+            "aiDescription": "A contribuição central deste trabalho para a Inteligência Artificial está na camada de engenharia de dados: a estruturação, limpeza e organização de bases públicas de saúde (DATASUS) em formato consistente e granular (por município, UF, região, ano e grupo de procedimento) é o pré-requisito indispensável para qualquer aplicação futura de aprendizado de máquina — sem dados estruturados e confiáveis, não há modelo preditivo viável. Essa é justamente a proposta declarada do Projeto Big Data — IESB, que se define como um \"portal de ciência de dados e inteligência artificial\" e já disponibiliza, em outras frentes do mesmo ecossistema (como o painel de Clusters LISA), técnicas de análise espacial e agrupamento aplicadas a dados municipais semelhantes. Do ponto de vista da área profissional de Ciência de Dados e IA, este trabalho se relaciona diretamente com o pipeline típico de um projeto de IA aplicada à saúde pública: coleta (web scraping e integração com fontes oficiais), armazenamento estruturado, análise exploratória via dashboards e, na etapa seguinte, modelagem preditiva. Os dados aqui organizados constituem a base para modelos futuros de previsão de demanda por internações e procedimentos ambulatoriais, detecção de anomalias regionais e apoio à priorização de políticas públicas — linha de atuação já anunciada pelo próprio portal (\"Machine Learning Aplicado: modelos preditivos e classificatórios\").",
+            "schedule": "07/10 — 14h15 às 16h30"
+          },
+          {
+            "title": "Arquitetura e Operação de Infraestrutura  na AWS para a Plataforma dataiesb.com",
+            "modality": "Demonstração Tecnológica",
+            "authors": "Roberto M. Diniz",
+            "advisor": "Sérgio da C. Côrtes",
+            "abstract": "O Big Data IESB estrutura dados públicos e de parceiros para apoiar decisões nas esferas estadual, distrital e municipal, servindo também como ambiente de aprendizagem em Ciência de Dados e IA. Este trabalho apresenta a infraestrutura em nuvem da plataforma dataiesb.com, onde estudantes publicam seus projetos. Arquitetura serverless na AWS (S3, CloudFront, API Gateway, Lambda, Cognito), CI/CD via CodeBuild e cluster EKS com Streamlit. Provisionado via Terraform, com IaC e menor privilégio.",
+            "aiDescription": "A infraestrutura viabiliza, de forma segura e escalável, os projetos de Ciência de Dados e IA dos estudantes do Big Data IESB — de dashboards analíticos a modelos mais complexos — sustentando a análise de dados públicos que embasa decisões e políticas baseadas em evidências.",
+            "schedule": "07/10 — 14h15 às 16h30"
+          },
+          {
+            "title": "Uma abordagem híbrida de mineração de texto e aprendizado não supervisionado como ferramenta de growth para assessorias políticas: análise de engajamento no Instagram dos governadores brasileiros",
+            "modality": "Demonstração Tecnológica",
+            "authors": "Vinicius de Paula",
+            "advisor": "Sérgio da C. Côrtes e Simone de A. G. Assis",
+            "abstract": "A pesquisa desenvolve uma ferramenta de inteligência artificial para assessorias políticas. Ela combina análise de sentimentos, temas e agrupamento de dados para avaliar o impacto das redes sociais. Em vez de apenas gerar gráficos, o sistema separa as postagens dos comentários do público e organiza tudo em um funil de engajamento, fornecendo recomendações claras: o que produzir, amplificar ou abandonar. A solução foi validada estudando os 27 governadores do Brasil.",
+            "aiDescription": "A IA entra como NLP aplicado: análise de sentimentos (transformer cardiffnlp/twitter-xlm-roberta), modelagem de tópicos com BERTopic (embeddings + UMAP), clusterização (KMeans/DBSCAN/Agglomerative via AutoClusterHPO) e um LLM (Gemini) refinando rótulos de tópicos. Aplicadas aos perfis de Instagram dos 27 governadores, essas técnicas geram métricas que alimentam um dashboard de growth para assessoria de comunicação/marketing político, apoiando decisões editoriais orientadas a dado.",
+            "schedule": "07/10 — 14h15 às 16h30"
+          },
+          {
+            "title": "Como Votamos - Aplicação de IA para o exercício da cidadania",
+            "modality": "Demonstração Tecnológica",
+            "authors": "Luca Adriano M. M. Soares",
+            "advisor": "Sérgio da C. Côrtes",
+            "abstract": "O projeto é dividido em 2 etapas. A primeira etapa consiste em estimar as zonas eleitorais do DF por meio de um algoritmo que aplica polígonos de Voronoi para simular as áreas das Zonas eleitorais, sendo elas alimentadas com dados eleitorais. A segunda etapa consiste em uma aplicação para verificar dados eleitorais de 2002-2022 a nível municipal pela extensão de todo o território Brasileiro.",
+            "aiDescription": "Está em desenvolvimento uma camada de inteligência artificial, estruturada com LangChain e modelos de linguagem, permitindo que o usuário realize consultas em linguagem natural sobre a base eleitoral, convertendo perguntas em operações estruturadas sobre os dados e apresentando os resultados de forma acessível.",
+            "schedule": "07/10 — 14h15 às 16h30"
+          },
+          {
+            "title": "Clusterização espacial LISA e Análise Envoltória de Dados - Análise de Saneamento e dados sociais",
+            "modality": "Demonstração Tecnológica",
+            "authors": "Luca A. M. M. Soares",
+            "advisor": "Natália R. de S. Evangelista e Simone de A. G. Assis",
+            "abstract": "O trabalho é dividido em duas etapas, utilizando apenas mjunicípios com população menor de 50 mil habitantes. O primeiro reúne dados sociais e sanitários de diversas bases públicas e utiliza-se o método LISA de clusterização espacial para identificar áreas vulneráveis. Já o DEA reúne variáveis públicas sanitárias e financeiras para medir a eficiência operacional dos municípios.",
+            "aiDescription": "Algoritmos de aprendizado de máquina, sendo eles Clusterização e Random Forest.",
+            "schedule": "07/10 — 14h15 às 16h30"
+          }
         ]
       },
       {
         "name": "Mostra de Banners Científicos",
         "description": "Trabalhos selecionados para apresentação em banner 90×120 cm, orientação vertical.",
-        "works": []
+        "works": [
+          {
+            "title": "Governança Orientada a Evidências e Inteligência Analítica no Judiciário: Modelagem Preditiva de um Simulador Computacional das Metas Nacionais do CNJ",
+            "modality": "Mostra de Banners Científicos",
+            "authors": "Nicole L. Duarte e Mateus de L. Costa.",
+            "advisor": "Natália R. de S. Evangelista e Simone de A. G. Assis",
+            "abstract": "Este trabalho desenvolve e avalia um Simulador Inteligente para as Metas Nacionais do CNJ, aplicando Design Science Research a dados mensais (2020–2026) do TRT da 18ª Região (DataJud e PJe). Testando modelos como ARIMA/SARIMA e suavização exponencial para lidar com a heterogeneidade das séries, as previsões foram integradas às regras das Metas 1 e 2 em um ambiente de simulação interativo.",
+            "aiDescription": "A Inteligência Artificial é aplicada no trabalho por meio de técnicas de análise preditiva e modelagem de séries temporais, utilizadas para estimar o comportamento futuro de variáveis relacionadas ao cumprimento das Metas Nacionais do Poder Judiciário. A partir de dados históricos do Tribunal Regional do Trabalho da 18ª Região (TRT18), são analisadas variáveis como casos novos, processos julgados, suspensos e dessobrestados. Para a construção das previsões, são avaliados modelos estatísticos de séries temporais, como ARIMA/SARIMA e métodos de suavização exponencial. Esses modelos identificam padrões presentes nos dados históricos, como tendências, sazonalidade e alterações ao longo do tempo, permitindo projetar valores para períodos futuros. A escolha dos modelos considera critérios de desempenho, como a Raiz do Erro Quadrático Médio (RMSE), além da análise dos resíduos e das características de cada série. As previsões geradas são incorporadas ao Simulador de Metas, permitindo que o usuário analise cenários e verifique como alterações em determinadas variáveis podem impactar o percentual de cumprimento das metas. Dessa forma, a Inteligência Artificial não é utilizada apenas para prever valores futuros, mas como suporte à tomada de decisão, transformando dados históricos em informações prospectivas que auxiliam no planejamento e no acompanhamento do desempenho institucional. A aplicação está diretamente relacionada à área de Ciência de Dados e Inteligência Artificial, pois envolve preparação e análise de dados, modelagem preditiva, avaliação de modelos e desenvolvimento de uma solução analítica para apoio à decisão. No contexto do Poder Judiciário, essas técnicas contribuem para uma gestão orientada por dados, possibilitando antecipar cenários, identificar possíveis dificuldades no cumprimento das metas e avaliar estratégias antes de sua implementação.",
+            "schedule": "06/10 — 14h15 às 16h30"
+          },
+          {
+            "title": "Relação massa-raio de exoplanetas nas duas direções de predição: qualidade dos dados, modelos estatísticos e o limite da previsão",
+            "modality": "Mostra de Banners Científicos",
+            "authors": "Enzo R. T. de Andrade",
+            "advisor": "Sérgio da C. Côrtes",
+            "abstract": "Quase metade das massas de exoplanetas no principal catálogo da NASA não foi medida... Foi calculada por uma fórmula. Este trabalho mostra que treinar modelos com esses valores cria uma ilusão de precisão e distorce os resultados. Com os dados limpos, compara estatística e aprendizado de máquina na previsão de massa e raio de planetas e encontra um teto: cerca de três quartos do erro vêm da diversidade real entre planetas, e não do modelo escolhido.",
+            "aiDescription": "O aprendizado de máquina foi o teste de realidade. Florestas aleatórias e gradient boosting, que descobrem sozinhos a forma da relação, enfrentaram modelos estatísticos clássicos, sem nunca misturar planetas da mesma estrela entre treino e teste.",
+            "schedule": "06/10 — 14h15 às 16h30"
+          },
+          {
+            "title": "Big Data IESB - Banco de Dados para Ciência de Dados e Inteligência Artificial",
+            "modality": "Mostra de Banners Científicos",
+            "authors": "Joel Carolino Farias",
+            "advisor": "Sérgio da C. Côrtes",
+            "abstract": "O projeto Big Data IESB aplica bancos de dados à Ciência de Dados e à Inteligência Artificial. O trabalho envolve organização, integração e validação de dados públicos, consultas SQL e desenvolvimento de painéis interativos. Inclui melhorias no portal e integração de assistentes de IA, tornando as informações mais acessíveis e apoiando a análise de indicadores e investimentos municipais. A proposta aproxima a formação acadêmica das demandas profissionais e da tomada de decisões baseada em dados.",
+            "aiDescription": "A inteligência artificial é utilizada por meio de assistentes integrados ao portal Big Data IESB, permitindo a interação em linguagem natural e oferecendo uma forma adicional de consultar conteúdos e obter orientações sobre os temas apresentados. O trabalho também aborda a preparação dos dados como fundamento para aplicações de IA. A organização das bases, o relacionamento entre registros e a validação das informações são importantes para que essas aplicações utilizem dados consistentes e produzam resultados que possam ser verificados. Essa atuação se relaciona à área profissional de Ciência de Dados e Inteligência Artificial ao combinar preparação de dados, consultas SQL, desenvolvimento de sistemas e visualização de informações. As bases estruturadas também podem apoiar futuras aplicações para identificar padrões, detectar inconsistências e auxiliar na interpretação de indicadores, mediante desenvolvimento e validação específicos.",
+            "schedule": "06/10 — 14h15 às 16h30"
+          },
+          {
+            "title": "INTELIGÊNCIA ARTIFICIAL E CRIATIVIDADE: POTENCIALIDADES E LIMITAÇÕES DO USO DE PLATAFORMAS GENERATIVAS EM TRABALHOS ACADÊMICOS DO CURSO DE PUBLICIDADE E PROPAGANDA",
+            "modality": "Mostra de Banners Científicos",
+            "authors": "Larissa D. G. Bandeira",
+            "advisor": "Nivea P. Braga",
+            "abstract": "O trabalho mapeia o uso de Inteligências Artificiais generativas por 54 estudantes de Publicidade e Propaganda de um Centro Universitário de Brasília. A pesquisa, de metodologia mista, analisou dados quantitativos e qualitativos coletados entre fevereiro e junho de 2026. Os resultados apontam uso significativo da IA, principalmente para pesquisa, organização e redação, com ganhos de agilidade e qualidade. Também foram identificadas preocupações com originalidade, autoria e dependência.",
+            "aiDescription": "A Inteligência Artificial é abordada no trabalho a partir da investigação sobre o uso de plataformas de IA generativa por estudantes de Publicidade e Propaganda no projeto integrador.  A pesquisa busca compreender como essas ferramentas são utilizadas, quais potencialidades e limitações são percebidas pelos estudantes, especialmente em relação à criatividade, autoria e desenvolvimento dos trabalhos. A temática se relaciona diretamente à área profissional de Publicidade e Propaganda, considerando a crescente presença da IA generativa no mercado publicitário.",
+            "schedule": "06/10 — 14h15 às 16h30"
+          },
+          {
+            "title": "Governança Algorítmica e Eficiência Jurisdicional: O Desenvolvimento de um Robô Pedagógico Centrado em Dados e Legal Design para a Execução de Metas Institucionais no Judiciário",
+            "modality": "Mostra de Banners Científicos",
+            "authors": "Leonardo A. Pereira, Filipe de C. Duarte e Giuliano Ferreira Filho",
+            "advisor": "Simone de A. G. Assis e Natália R. de S. Evangelista",
+            "abstract": "A apuração das Metas Nacionais do CNJ depende da qualidade dos movimentos registrados no PJe, cujo preenchimento inadequado distorce os indicadores. Apresenta-se um robô pedagógico que orienta servidores nesse registro, baseado em IA Explicável e Legal Design: prioriza respostas determinísticas sobre dados estruturados e declara a ausência de informação em vez de fabricá-la. Protótipo validado em base local; impactos organizacionais dependem de avaliação posterior.",
+            "aiDescription": "A Inteligência Artificial é empregada como camada de apoio à interpretação e à comunicação, não como instância decisória. A arquitetura adota a estratégia deterministic-first: fatos previsíveis sobre o processo são obtidos por regras e consultas a dados estruturados, e o modelo de linguagem, executado localmente, é acionado apenas quando a pergunta exige interpretação semântica ou recuperação de trechos da base de conhecimento, formada por normativos do CNJ, Tabelas Processuais Unificadas e documentação do DataJud. Essa separação reduz o risco de respostas fluentes sem sustentação factual e mantém o processamento dentro do ambiente institucional. O sistema segue os princípios da Inteligência Artificial Explicável (XAI): cada orientação indica a fonte normativa que a fundamenta e, quando a informação não consta da base, a limitação é declarada em vez de suprida por inferência. O modelo local dispensa o envio de dados processuais a serviços de terceiros, requisito relevante em razão da natureza sensível das informações tratadas. Na área profissional apresentada — a Administração da Justiça —, a IA atua sobre a qualidade do dado que alimenta os indicadores de desempenho do Judiciário. Ao orientar o servidor no momento do registro dos movimentos no PJe, o artefato reduz custos de busca e interpretação normativa, padroniza práticas e fortalece a governança orientada por evidências, preservando a supervisão humana exigida pela Resolução CNJ nº 615/2025.",
+            "schedule": "06/10 — 14h15 às 16h30"
+          },
+          {
+            "title": "Judicialização da Saúde e Priorização na Gestão de Recursos do SUS: o uso da Inteligência Artificial (IA) na análise das condições de Publicidade e Relevância do Modelo A4R nas decisões do TJDFT e o papel do NAT-Jus",
+            "modality": "Mostra de Banners Científicos",
+            "authors": "Márcio Vieira Araujo",
+            "advisor": "Sérgio da Costa Côrtes",
+            "abstract": "O SUS enfrenta uma ameaça à sustentabilidade do sistema: o crescimento acelerado das ações judiciais fora das listas e protocolos do SUS que contrapõe o direito individual e a gestão dos recursos coletivos. O presente estudo analisa o conteúdo textual das decisões judiciais proferidas pelo TJDFT e o impacto da incorporação dos pareceres do NAT-Jus mensurada por indicadores de publicidade e relevância do modelo Accountability for Reasonableness (A4R) (Daniels e Sabin, 1997)",
+            "aiDescription": "A metodologia adotada é de abordagem mista, estruturada em duas fases e ambas utilizam apoio da IA não generativa. Na fase qualitativa, será constituído um banco de dados com o conteúdo textual das decisões obtidas por busca sistemática na base jurisprudencial do TJDFT; sobre esse corpus, serão aplicadas técnicas de Processamento de Linguagem Natural (PLN) com a ferramenta SAS Text Analytics para identificar e codificar elementos da fundamentação relacionados às condições do A4R, dentre os quais exposição de motivos, referência a evidências científicas, argumentos clínicos, menção a diretrizes institucionais e critérios de uso racional de recursos em saúde. Na fase quantitativa, os indicadores extraídos serão quantificados por meio de uma ferramenta de mensuração. A validade da ferramenta será verificada pelo Índice Kappa de Cohen, calculado sobre amostras aleatórias estratificadas por clusters gerados pelo SAS Viya e testadas de forma independente por dois profissionais de saúde. Por fim, a ferramenta será aplicada para mensurar o grau de alinhamento das decisões ao modelo A4R. Os resultados serão submetidos a uma análise estatística no SAS Viya. Será ainda desenvolvido um modelo de aprendizado de máquina para estimar a capacidade preditiva das variáveis extraídas dos textos decisórios em relação ao deferimento ou indeferimento das ações, permitindo identificar se existem padrões de fundamentação.",
+            "schedule": "06/10 — 14h15 às 16h30"
+          },
+          {
+            "title": "Educação Pública no Ensino Fundamental, Economia e  Eleições: Uma Análise da Gestão e Continuidade dos Serviços nos municipios da RIDE-DF",
+            "modality": "Mostra de Banners Científicos",
+            "authors": "Roger Cristiano Brock",
+            "advisor": "Sérgio da C. Côrtes",
+            "abstract": "Este trabalho analisa a relação entre continuidade e alternância da gestão municipal e a evolução da educação pública no ensino fundamental e da economia nos municípios da RIDE-DF. A partir da integração de dados eleitorais, educacionais, econômicos e demográficos, busca identificar padrões e associações entre ciclos político-administrativos, continuidade dos serviços públicos e desempenho municipal.",
+            "aiDescription": "A Inteligência Artificial será aplicada para analisar, predizer e explicar os efeitos da continuidade ou alternância da gestão municipal sobre a educação pública e o desempenho econômico dos municípios da RIDE-DF. A partir de uma base longitudinal integrada, contendo dados eleitorais, educacionais, econômicos, demográficos e administrativos, modelos de Machine Learning serão usados para identificar padrões e estimar indicadores futuros, como IDEB, aprovação escolar, PIB per capita, emprego e renda. Técnicas de IA Explicável (XAI) irão identificar quais fatores mais contribuem para os resultados observados. A pesquisa irá ainda combinar Machine Learning com métodos de inferência causal, permitindo comparar cenários de continuidade e alternância da gestão e estimar seus possíveis efeitos sobre os municípios. Será desenvolvido um Índice de Continuidade da Gestão Municipal (ICGM), incorporando dimensões políticas, administrativas, orçamentárias e de continuidade de programas e investimentos. Os resultados poderão subsidiar um modelo de apoio à decisão para gestores públicos, identificando fatores associados à continuidade e à melhoria dos serviços públicos municipais.",
+            "schedule": "06/10 — 14h15 às 16h30"
+          },
+          {
+            "title": "Uso de soluções SAS para modelos preditivos em IA - Predição da nota de matemática do ENEM",
+            "modality": "Mostra de Banners Científicos",
+            "authors": "Samuel T. Rego",
+            "advisor": "Sérgio da C. Côrtes",
+            "abstract": "Este estudo de caso teve como objetivo predizer a nota de Matemática do ENEM a partir das notas obtidas em Ciências da Natureza, Ciências Humanas e Linguagens e Códigos. Utilizando a solução SAS Build Model, foram desenvolvidos e comparados quatro modelos de Inteligência Artificial — Regressão Linear, Árvore de Decisão, Rede Neural e Gradient Boosting — avaliados pela métrica RMSE, permitindo identificar a abordagem mais precisa para esse tipo de predição educacional.",
+            "aiDescription": "A Inteligência Artificial foi aplicada por meio de modelos de aprendizado de máquina supervisionado, construídos na plataforma SAS Build Model, com o objetivo de prever a nota de Matemática do ENEM a partir de outras três competências avaliadas na prova (Ciências da Natureza, Ciências Humanas e Linguagens e Códigos). Foram treinados e comparados quatro algoritmos com naturezas distintas: um modelo estatístico linear (Regressão Linear), um modelo baseado em regras de decisão (Árvore de Decisão), um modelo inspirado no funcionamento neural biológico (Rede Neural) e um modelo de ensemble sequencial (Gradient Boosting). Estes modelos permitiram observar como diferentes técnicas de IA capturam padrões e relações não lineares entre desempenho em áreas distintas do conhecimento. Essa aplicação se relaciona diretamente com a área de Educação e Ciência de Dados, evidenciando como a IA pode apoiar diagnósticos preditivos de desempenho acadêmico, auxiliando instituições de ensino na identificação precoce de alunos com potencial dificuldade em áreas específicas, como a Matemática, e no direcionamento de estratégias pedagógicas personalizadas.",
+            "schedule": "06/10 — 14h15 às 16h30"
+          },
+          {
+            "title": "Inteligência Artificial na gestão de políticas públicas: eficiência administrativa, proteção social e o risco de desumanização do cuidado — uma análise a partir das políticas de saúde mental",
+            "modality": "Mostra de Banners Científicos",
+            "authors": "Thayssa Gabryelle da C. Leal",
+            "abstract": "Este estudo analisa o uso da Inteligência Artificial na gestão de políticas públicas, avaliando seus impactos sobre a proteção social, a equidade e os direitos fundamentais. A partir das políticas de saúde mental como campo de análise, investiga-se como a automação da triagem e a lógica algorítmica afetam a escuta qualificada, ressaltando a necessidade de supervisão humana e controle social.",
+            "aiDescription": "A IA vem sendo aplicada na triagem automatizada de demandas e na priorização de atendimentos. No campo da saúde mental, esse uso levanta questões: os limites da automação diante do sofrimento psíquico, que exige escuta qualificada e avaliação clínica sensível ao contexto; responsabilidade profissional na tomada de decisão apoiada por sistemas algorítmicos; e a desigualdade de acesso. Assim sendo, a digitalização do cuidado pode excluir justamente os usuários estruturalmente já excluídos.",
+            "schedule": "06/10 — 14h15 às 16h30"
+          }
+        ]
       }
     ]
   },
@@ -283,15 +490,15 @@
       {
         "label": "",
         "members": [
-          {         
+          {
             "name": "Prof. André Rehbein Sathler Guimarães ",
             "role": "Coordenador do Mestrado em Gestão Estratégica de Organizações - MGEO",
-              "photo": "img/coord/AndreRehbein.jpg",
-              "lattes": "http://lattes.cnpq.br/9394532830433721",
-              "linkedin": "https://www.linkedin.com/in/andresathler/"
-           },     
+            "photo": "img/coord/AndreRehbein.jpg",
+            "lattes": "http://lattes.cnpq.br/9394532830433721",
+            "linkedin": "https://www.linkedin.com/in/andresathler/"
+          },
           {
-           "name": "Profa. Patrícia Moscariello Rodrigues",
+            "name": "Profa. Patrícia Moscariello Rodrigues",
             "role": "Coordenadora de Cursos de Graduação",
             "photo": "img/coord/PatriciaMoscariello.png",
             "lattes": "",
@@ -304,26 +511,26 @@
             "lattes": "http://lattes.cnpq.br/1206696860799261",
             "linkedin": "https://www.linkedin.com/in/s%C3%A9rgio-da-costa-c%C3%B4rtes-01032951/"
           },
-         {
-           "name": "Prof. Francisco Marcelo Marques Lima",
+          {
+            "name": "Prof. Francisco Marcelo Marques Lima",
             "role": "Coordenador de Cursos de Graduação",
             "photo": "img/coord/FranciscoMarcelo.png",
             "lattes": "",
-            "linkedin": "https://www.linkedin.com/in/marques-marcelo/" 
-           },
+            "linkedin": "https://www.linkedin.com/in/marques-marcelo/"
+          },
           {
             "name": "Prof. Pablo Coelho Ferreira",
             "role": "Professor do IESB e Coordenador do Centro de Robótica e Inteligência Artificial (CRIA) do IESB",
             "photo": "img/coord/PabloCoelho.jpg",
             "lattes": "http://lattes.cnpq.br/0909431641369485",
-            "linkedin": "https://www.linkedin.com/in/pablocoelho/" 
+            "linkedin": "https://www.linkedin.com/in/pablocoelho/"
           },
-         {
+          {
             "name": "Ricardo Júnio Ferreira",
             "role": "Gerente de TI e Transformação Digital do IESB",
             "photo": "img/coord/RicardoJunio.jpg",
             "lattes": "",
-            "linkedin": "https://www.linkedin.com/in/ricardo-junio/" 
+            "linkedin": "https://www.linkedin.com/in/ricardo-junio/"
           }
         ]
       },
