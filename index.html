@@ -205,8 +205,8 @@
     <script src="content-loader.js"></script>
     <script>
         const observer = new IntersectionObserver(entries => {
-            entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
-        }, { threshold: 0.1 });
+            entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); } });
+        }, { threshold: 0, rootMargin: '0px 0px -10% 0px' });
         document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
         document.querySelectorAll('nav ul li a').forEach(a => {
             a.addEventListener('click', () => document.querySelector('nav ul').classList.remove('open'));
