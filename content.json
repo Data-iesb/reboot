@@ -245,9 +245,9 @@
             "schedule": "06/10 — 14h15 às 16h30"
           },
           {
-            "title": "Inteligência Artificial Generativa - As "Athenas" do IESB",
+            "title": "Inteligência Artificial Generativa - As Athenas do IESB",
             "modality": "Vitrine de Inovação em IA",
-            "authors": "Marco Antônio Valério Da Cunha",
+            "authors": "Marco Antônio Valério da Cunha",
             "abstract": "O projeto em que atuo é a Athena, família de assistentes de IA do DATA IESB. A Athena SUS responde sobre saúde pública com dados do SUS, a Pós-Graduação com dados da CAPES, a IESB tira dúvidas de alunos sobre extensão e atividades complementares com base nos guias oficiais, e a Educacional ajuda professores a montar listas de exercícios e orienta alunos com dicas, sem dar a resposta pronta. Todas citam a fonte e não inventam informação.",
             "aiDescription": "A IA é o próprio coração do trabalho, já que a Athena é um conjunto de assistentes que entendem perguntas em linguagem natural e respondem com base em dados e documentos oficiais. O sistema usa modelos de linguagem modernos na nuvem combinados com uma busca prévia nos documentos certos, técnica conhecida como RAG, o que reduz muito o risco de respostas inventadas. Na Athena SUS e na Athena Pós-Graduação, a IA também transforma a pergunta em consultas a bancos de dados públicos, lê o resultado e explica em português.",
             "schedule": "06/10 — 14h15 às 16h30"
